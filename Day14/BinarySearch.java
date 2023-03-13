@@ -1,12 +1,10 @@
 // search element in the array using binary search
-import java.util.Arrays;
 public class BinarySearch
 {
 public static void main(String args[])
 {
 int x=2;
-int arr[]={2,5,1,8,6,7,9};
-Arrays.sort(arr);
+int arr[]={1,2,5,6,7,8,9};
 int n=arr.length;
 int beg=0,end=n-1;
 while(beg<=end)
