@@ -14,6 +14,6 @@ TYPES:
 
 5)Polynomial Time complexity(O(n^p)):polynomial is a general term which conttain quadratic ,cubic and quartic functions.it also depends on input value.for example use one for loop and  with in the another for loop   and give the range upto input  and two for loop run n^2 times .these algoritham slower than n logn.these one is horrible.
 
-6)Exponential Time complexity(O(k^n)):these algorithm doubling the value with every additional input.for example, 2^8.it also bad horrible.
+6)Exponential Time complexity(O(k^n)):these algorithm doubling the value with every additional input.for example, 2^8.it also  horrible.
 
 7)Factoral Time Complexity(O(n!)):This algorithm run time proportional to the factorial of the input size.It takes so much time and when compared to all complexities these one is horrible.it takes so much time.
