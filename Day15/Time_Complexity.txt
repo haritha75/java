@@ -1,0 +1,19 @@
+//write about time complexity and it's types briefly in java
+
+TIME COMPLEXITY:It describes how the time to perform the algorithm with the input size or how many times a statement is executed. And it can be represented by  Big-O notation.
+
+TYPES:
+
+1)Constant Time complexity(O(1)):It takes a fixed number of steps to complete a particular operation.And the input size is constant.And the algorithm does not affected by the size of the input.It represented as a O(1).this one is excellent case among all.
+
+2)Logarithmic Time Complexity(O(logn)):When it reducwes the size of input data in each step.that means number of operations is not the same as the input size.when input size increases then number of operations get reduced.it represeted by O(logn).this one is good case.
+
+3)Linear Time(O(n)):It depends on length of the input.when the running  time increases based on input value.it represented by O(n).this one is not very much good.but it is good one means fair case.
+
+4)LogLinear Time complexity(O(n logn)):It is a combination of n and logn  complexity.That means logn operations will occurs n times.it represented by O(n logn).log base is always 2.This one is bad case.
+
+5)Polynomial Time complexity(O(n^p)):polynomial is a general term which conttain quadratic ,cubic and quartic functions.it also depends on input value.for example use one for loop and  with in the another for loop   and give the range upto input  and two for loop run n^2 times .these algoritham slower than n logn.these one is horrible.
+
+6)Exponential Time complexity(O(k^n)):these algorithm doubling the value with every additional input.for example, 2^8.it also bad horrible.
+
+7)Factoral Time Complexity(O(n!)):This algorithm run time proportional to the factorial of the input size.It takes so much time and when compared to all complexities these one is horrible.it takes so much time.
