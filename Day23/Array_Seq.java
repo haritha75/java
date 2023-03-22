@@ -1,3 +1,4 @@
+//print the array boundary elements in sequential order
 public class Array_Seq
 {
 public static void main(String args[])

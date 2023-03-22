@@ -1,4 +1,4 @@
-//write a program on boundary shape
+//write a program on array boundary shape
 public class Array_Shap
 {
 public static void main(String args[])

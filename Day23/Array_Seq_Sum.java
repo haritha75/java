@@ -1,12 +1,13 @@
+//print the sum of array boundary elements
 public class Array_Seq_Sum
 {
 public static void main(String args[])
 {
 int arr[][]={
-       {2,6,3,7,8},
-       {4,9,2,1,3},
-       {1,8,2,6,9},
-       {2,1,3,4,6}
+       {1,6,3,5,2},
+       {2,9,2,1,3},
+       {6,8,2,8,0},
+       {9,1,2,4,8}
        };
        System.out.println(arr.length);
        int sum=0;
