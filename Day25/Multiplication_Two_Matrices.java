@@ -1,5 +1,5 @@
 //write a code on multiplication of two matrices
-public class Mul_Two_Matrices
+public class Multiplication_Two_Matrices
 {
 public static void main(String args[])
 {
