@@ -45,6 +45,10 @@ close++;
 }
 }
 }
-System.out.print(open+" "+close+" "+mismatch);
+System.out.println(open+" "+close+" "+mismatch);
+if(open==0&&mismatch==0)
+System.out.println("matching");
+else
+System.out.println("mismatching");
 }
 }
