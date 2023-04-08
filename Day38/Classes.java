@@ -6,8 +6,8 @@ public static void main(String args[])
 Car bmw=new Car();
 bmw.play(1);
 Car p=new Car();
-p.price=40000;//it is not proper way
-System.out.println(p.price);
+//p.price=40000;//it is not proper way
+//System.out.println(p.price);
 p.setPrice(50000);//this one is good .calling function with object
 System.out.println(p.getPrice());
 Car c=new Car();
@@ -19,7 +19,7 @@ class Car
 {
 //attributes or properties
 String color;
-int price;// it is in private so not using other class.
+private int price;// it is in private so not using other class.
 String company;
 String song[]={"dhoom","akasam","beast"};
 //methods or function 

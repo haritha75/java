@@ -1,6 +1,6 @@
 //write a program on java constrctors.
 public class Constructor1
-//more than two constrctors called constrctor overloading.
+//more than two constrctors with different parameterscalled constrctor overloading.constrctor created with class name.
 {
 public static void main(String args[])
 {

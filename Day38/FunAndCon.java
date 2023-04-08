@@ -22,7 +22,7 @@ void setHello()//function or method
 {
 System.out.println("rock the show");
 }
-void setHello(int y)//more than two method or function called method overloading.do not use same variable so confused.
+void setHello(int y)//more than two method or function with the same method name called method overloading.do not use same variable so confused.
 {
 this.x=y;
 System.out.println("one parameter");
