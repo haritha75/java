@@ -1,4 +1,4 @@
-//different clasees uses same super class.
+//different clasees uses or inheritante same super class.
 public class HybridInheritance {
     public static void main(String[] args) {
         Vivo v=new Vivo();
