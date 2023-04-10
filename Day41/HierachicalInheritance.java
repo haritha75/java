@@ -1,5 +1,5 @@
 //different clasees uses or inheritante same super class.
-public class HybridInheritance {
+public class HierachicalInheritance {
     public static void main(String[] args) {
         Vivo v=new Vivo();
         v.color("silver");
