@@ -1,7 +1,7 @@
 package govt.contract;
 
 public class Employee {
-    public void age(){
+    public static  void age(){
         System.out.println("too younger");
     }
     
