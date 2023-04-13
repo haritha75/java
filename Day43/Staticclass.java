@@ -1,5 +1,5 @@
 public class Staticclass {
-    static  int hello(){
+   static  int hello(){
         System.out.println("good");
         return 5;
     }
