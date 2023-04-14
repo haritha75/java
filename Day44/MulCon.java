@@ -1,7 +1,7 @@
 public class MulCon {
     
     public static void main(String[] args) {
-        Rock r=new Rock();
+        Rock r=new Rock(10);
     }
     
 }
