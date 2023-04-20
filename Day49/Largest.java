@@ -8,10 +8,9 @@ public class Largest {
         int max=a[6];
         int c=0;
         for(int i=0;i<a.length;i++){
+            c++;
             if(a[i]>max)
-            
-                c++;
-            max=a[i];
+                 max=a[i];
             
 
         }
