@@ -1,0 +1,10 @@
+finding two closest stars in a galaxy?
+first finding every two stars distance and which is the small distance that will be return.
+finding maximum value in large given array?
+it start finding large value index 0 to last undex.
+Crack the mobile password?
+it will check all possible values .if finding that password open the lock otherwise not.
+find number of disnict subsequences of a given string?
+find all the subsequences and then count all the disnict ones.
+find out fire word in dictionary?
+start from the first page ,first entry ,which is 'A', and check each word untill you find fire.
