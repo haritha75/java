@@ -1,0 +1,7 @@
+1.Pascal case : it is used in classes,interfaces and format is PascalCase.
+2.camel case  : it is used in methods,variables  and format is camelCase.
+3.Snake case  : format is snake_case.
+4.screaming snake case : it is used in constant values .format is DAY_OF_THE_MONTH.
+5.kebab case : format is kebab-case.all are lower cases.
+6.Camel snake case : format is camel_Snake_Case.
+7.Pascal snake case: format is Pascal_Snake_Case. 
