@@ -1,8 +1,0 @@
-DRY : full form is donot repeat yourself.that means reducing the repetitions of software patterns and eliminating the redundancies.
-
-KISS:full form is keep it simple,stupid.the aim is build as much as possible simple code or product for understanding better way.mainly used in designs and development of digital products.and also  it reducing time
-and better understanding.easy to testing also .reduced codebase complexity.
-
-YAGNI: main goal is to avoid spending time and money on overengineering things that you think you will need later on.at the end it turns out that you donot need it.
-it more flexible and better developer performance.
-example:  if  you purchase fruits then we get good fruits but if you purchase after one day or some minutes it automatically wasted because good fruits have some time on that time they are good otherwise not.

@@ -1,0 +1,30 @@
+DRY : full form is "DONOT REPEAT YOURSELF".that means reducing the repetitions of software patterns and eliminating the redundancies.
+
+Advantages:
+
+-> More Secure
+-> Easy to fix
+-> Saves time
+-> Efficient
+-> Reducing Repetitions.
+
+
+KISS:full form is "Keep It Simple,Stupid".the aim is build as much as possible simple code or product for understanding better way.mainly used in designs and development of digital products.and also  it reducing time
+and better understanding.easy to testing also.
+
+Advantages:
+
+-> Users donot want to waste time.
+-> Reduced codebase complexity.
+
+
+YAGNI: full form is "You Aren't Gonna Need It".
+
+main goal is to avoid spending time and money on overengineering things that you think you will need later on.at the end it turns out that you donot need it.
+
+example:  if  you purchase fruits then we get good fruits but if you purchase after one day or some minutes it automatically wasted because good fruits have some time on that time they are good otherwise not.
+
+Advantages:
+
+-> More flexible.
+-> Better developer performance.

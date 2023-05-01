@@ -23,6 +23,11 @@ public class BigDecimalExam {
         System.out.println(a.min(b));
         System.out.println(a.multiply(b));
         System.out.println(a.remainder(b));
+        System.out.println(a.byteValue());
+       // System.out.println(a.sqrt(null));
+        System.out.println(a.intValue());
+        System.out.println(b.plus());
+        System.out.println(a.toBigInteger());
     }
     
 }
