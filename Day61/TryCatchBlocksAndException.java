@@ -1,7 +1,7 @@
 //if runtime exception happening on that time you get only few statements not all if you have remaining statements also use try and catch blocks.
 
 import java.util.Scanner;
-public class TryCatchException {
+public class TryCatchBlocksAndException {
 
     public static void main(String[] args) {
 
