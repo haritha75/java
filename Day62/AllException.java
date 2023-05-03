@@ -1,4 +1,5 @@
 //here wecan use multiple catch blocks and also try blocks also if you want use it.
+//if you know the what type exception occurs in your code  then use in catch block that exception otherwise use Exception catch block only because exception catch block is super parent of remaining exception types.
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
