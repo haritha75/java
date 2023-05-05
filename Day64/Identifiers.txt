@@ -1,0 +1,12 @@
+Identifier:
+
+  Identifiers is a characters to identify something in a program.Names given to a class ,variable,package,method or interface.to identify item from any place in the program for this purpose we are using identifiers.
+
+  Rules:
+
+    -> Names can contain letters,digits,underscores,and doller signs.
+    -> Name must begin with a letter not digit.
+    -> Names should  start with a lowercase letter and it cannot contain whitespace.
+    -> Names can also begin with $ and _.
+    -> Names are case sensitive.
+    -> Reserved words(like int,boolean) cannot be used as names. 
