@@ -1,0 +1,15 @@
+Thow:
+
+    -> java throw  keyword is used throw an exception explicity in the code, inside the function or block of code.
+    -> it can delcare both checked and unchecked exceptions.
+    -> it is used within the method.
+    -> we are allowed to throw only one at a time cannot throw multiple exceptions.
+
+
+
+Throws:
+   
+   -> Java thows keyword is used in the method signature to declare an exception which might be thown by function while excution of an program.
+   -> it can delcare only checked exception.    
+   -> it is used with the method signature.
+   -> we can declare multiple exceptions using thows keyword that can be throw by the method.

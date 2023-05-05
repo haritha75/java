@@ -1,0 +1,26 @@
+Compile:
+   
+   -> it converts a program into machine code as whole. 
+   -> it create object code file.
+   -> Compiler takes entire program as input.
+   -> Program need not be compiled every time.
+   -> Errors are displayed after entire program is checked.
+
+
+                               compiler
+              source code -------------------->   byte code
+
+
+
+
+
+Interpreter:
+
+   -> it converts a program into machine code statement by statement.
+   -> it does not create object code file.
+   -> Interpreter takes single instrctions as input.
+   -> every time higer level programs is comverted into lower level program.
+   -> errors are displayed for every instrction interpreter.
+   
+                                  Interpreter
+                      byte code---------------------->  machine code
