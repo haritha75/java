@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9456c105-9147-4539-a08f-8ae718de02f1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Day11/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day11/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day20/Add.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Day20/Add.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day20/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day20/Add.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day20/Add_Two_Arrays1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Day20/Add_Two_Arrays1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day20/Add_Two_Arrays1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day20/Add_Two_Arrays1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day27/NumOfWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Day27/NumOfWords.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day27/NumOfWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day27/NumOfWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day27/SubString.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Day27/SubString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day27/SubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day27/SubString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day37/UnionArrys.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Day37/UnionArrys.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day37/UnionArrys.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day37/UnionArrys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day38/Constructor1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day38/Constructor1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day40/tools/pack1/Rock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day40/tools/pack1/Rock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day55/Codechef.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day55/Codechef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day55/Has_A_Relationship.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day55/Has_A_Relationship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day60/BigIntegerSum1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day60/BigIntegerSum1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day65/out/production/Day65/ClassCastException11.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Day65/out/production/Day65/ClassCastException11.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2PVS6CfrUDA9IfCIVa49VVXdFrC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9456c105-9147-4539-a08f-8ae718de02f1" name="Changes" comment="" />
+      <created>1683540578820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683540578820</updated>
+      <workItem from="1683540580374" duration="93000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
