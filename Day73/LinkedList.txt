@@ -1,0 +1,47 @@
+LinkedList class:
+
+    --> Linked List like a array list but linked list accepts all type of datatype at a time but not array list.
+    --> Liked list is a dynamic array so easy to deleting and inserting elements in array.
+    --> We donot want specify the size while creating the array.it automatically increases and decreases.
+
+Advantages in LinkedList:
+
+     1. Dynamic size.
+     2. Easy to Inserting and Deleting elements in Array.
+     3.Flexible Iteration.
+
+
+Disadvantages in LinkedList:
+
+     1. Slower performance compared to arrayList.
+     2. It requires more memory.
+
+
+Differences between ArrayList and LinkedList:
+
+           ArrayList                                                                    LinkedList
+    
+    1. This class uses a dynamic array to                                    This class uses a double linked list  to                                    
+        to store elements in it.                                                to store elements in it.
+       
+    2. Inefficient memory utilization.                                        Good memory utilization.
+
+    3. It can be one, two or multi-                                           It can either single double or circular linked   
+        Dimentional.                                                            list.
+
+    4. Insertion operation slower.                                            Insertion operation is fast.
+
+    5. It implements a list interface.                                        It implements both list and deque interfaces.
+
+    6. Data access and storage is very efficient.                             Data access and storage is not efficient.
+
+    7. Deletion operation is not efficient.                                   Deletion operation is efficient.
+
+    8. It stores similar datatypes only.                                      It stores multiple datatypes.
+
+    9. Less memory is used.                                                   More memeory is used.
+
+    10. It is a static memeory allocation.                                    It is a Dynamic memeroy allocation.  
+
+    
+
