@@ -4,14 +4,14 @@ LinkedList class:
     --> Liked list is a dynamic array so easy to deleting and inserting elements in array.
     --> We donot want specify the size while creating the array.it automatically increases and decreases.
 
-Advantages in LinkedList:
+Advantages of LinkedList:
 
      1. Dynamic size.
      2. Easy to Inserting and Deleting elements in Array.
      3.Flexible Iteration.
 
 
-Disadvantages in LinkedList:
+Disadvantages of LinkedList:
 
      1. Slower performance compared to arrayList.
      2. It requires more memory.
