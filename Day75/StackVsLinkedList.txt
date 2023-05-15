@@ -1,0 +1,79 @@
+Stack :
+  
+  Stack is linear data structure that is used to store the collections object.
+  It based on last-in-first-out.Stack extends the vector class.
+  It implements interface list,colllection,iterable,
+
+
+Advantages of Stack:
+   
+
+   1. Memory efficiency.
+   2. Easy access.
+   3. Global Accessibility means it access anywhere.
+
+Disadvantages of Stack:
+
+   
+   1. Difficult to test.
+   2. Limited Flexibility.
+   3. Difficulty in extension.
+
+Applications of Stack in real life:
+   
+
+   1. CD/DVD stand.
+   2. Stack of books in book shop.
+   3. Call center Systems.
+   4. Web brower history.
+   5. Youtube downloads and notifications.
+   6.Google photos and e-mails in any gallery also stored form of stack.
+   7. In cards also stack form.
+
+
+
+
+LinkedList:
+
+
+   It stores multiples datatypes at a time.
+   It does not stored in contiguous locations.
+   It also stored address of next node.
+
+
+
+Advantages of LinkedList:      
+
+
+     1. Dynamic size.
+     2. Easy to Inserting and Deleting elements in Array.
+     3. Flexible Iteration.
+
+
+Disadvantages of LinkedList:
+
+     1. Slower performance compared to array.
+     2. It requires more memory.
+
+
+Differences between Stack and LinkedList;
+
+                    Stack                                                  LinkedList
+
+
+         1. It can read topmost element.                         It is required to traverse though each element 
+                                                                  to access a specific eleemnt.
+
+         2. It follows LIFO.                                     Elements connect to each other ny references.
+
+         3. Simpler than linked list.                            More complex than stack.
+
+         4. It is a abstrack datatype it servers with two        It is a linear collection of data elements whose order
+             pricipal operations which is push and pop.             is not given by their location i memory.
+
+         5. Main operations are push,pop,peek.                   In linked list main operations are insert,delete and traversing.    
+
+         6. It takes less time to perform operations.            It takes more time compared to stack.                                             
+
+
+
