@@ -1,0 +1,21 @@
+Stack and Queue are both data strctures that store and organize elements.
+
+
+
+               Stack                                                  Queue
+
+
+  1.It follows LIFo principle                               It follows FIFO principle.
+
+  2.Elements are added and removed from                     Elements are added at one end and removed at another end.  
+     top of the stack.  
+
+  3.Stack providing two main operations.                    It providing two main operations that are enqueue and dequeue.
+     that are push and pop.                     
+
+  4.Also have additional operations                         It also have peek and IIsEmpty operations. 
+      that are peek and isEmpty.   
+
+  5.Stack is class.so                                       Queue is interface.so it implemented by linkedlist,arraydequeue  
+     stack implements the list interface.                    and priorityqueue classes.        
+                                                              

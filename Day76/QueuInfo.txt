@@ -1,0 +1,102 @@
+Queue: 
+   
+    Queue is interface.
+    Queue interface is implemented bu several classes .that are linked list ,arraydequeue and priorityqueue.
+    It follows FIFO principle.
+    It provides several method like adding,removing...etc.
+    It insert the end of the queue and removing elements from the beginning of the queue.
+
+
+Advantages of Queue:
+
+    1. Flexibility.
+    2. Order preservation.
+    3. Performance is good.
+
+Disadvantages of Queue:
+
+    1. Limited functionality.
+    2. size restrctions.
+    3. Memeory usage.
+
+
+1. priorityqueue:
+
+    It is a class which implemented in the collection framework.
+    It follows FIFO principle.
+    It implements the queue interface.
+    Sometimes elements of the queue are needed to be processed according to the priority that time it will  help.
+    Elements are stored  in whcih element have highest priority is always at front and can be accessed or removed first.
+    Main operations are insertion,deletion,peek and change priority.
+
+
+ Advantages of priorityqueue:
+
+     1. Efficient access to the highest priority element.
+     2. flexible priority management.
+     3. Suitable for various alogorithms and applications.
+
+ Disadvantages of priorityqueue:
+
+
+     1. Limited access to element by priority.
+     2. Cost of maintaining order.
+     3. Lock of support for efficient updates.       
+
+
+2. LinkedList:
+
+
+   It is a class.Every element is a seperate object with a data part and address part.
+   It takes more memory because it stores address also.
+   It does not access element  with index.
+   Elements are linked using pointers and addresses.
+   easy to insertion and deletions operations.
+   It implements the list,queue and dequeue interfaces.
+
+
+Advantages of LinkedList:      
+
+
+     1. Dynamic size.
+     2. Easy to Inserting and Deleting elements in Array.
+     3. Flexible Iteration.
+
+
+Disadvantages of LinkedList:
+
+     1. Slower performance compared to array.
+     2. It requires more memory.
+
+
+
+
+3. Arraydequeue:
+
+    It implements queue and dequeue interfaces.
+    It is special kind of array that grows and allows users to add or remove element from both sides of queue.
+    It providing constant time performance for inserting and removing elements from the bothe sides.
+    whenever you do more add and remove operations this is the best option to choose.
+
+ Advantages of arraydequeue:
+
+
+    1. Efficient.
+    2. Resizable.
+    3. Lightweight.
+
+
+ Disadvantages of arraydequeue:
+
+    1. Limited capacity.
+    2. Not synchronized.      
+
+
+   
+
+   
+
+
+
+
+
