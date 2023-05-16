@@ -8,16 +8,18 @@ Stack :
 Advantages of Stack:
    
 
-   1. Memory efficiency.
-   2. Easy access.
-   3. Global Accessibility means it access anywhere.
+   1. simplicity.
+   2. Efficient insertion and removal.
+   3. Recursive algorithms.it tracking function calls.
+   4. Undo/Redo functionality.
 
 Disadvantages of Stack:
 
    
-   1. Difficult to test.
-   2. Limited Flexibility.
-   3. Difficulty in extension.
+   1. Limited access.
+   2. Fixed size.
+   3. Lock of searchability.
+   4. Not suitable for all scenarios.
 
 Applications of Stack in real life:
    
