@@ -1,0 +1,59 @@
+HashMap:
+ 
+    -> HashMap is class in java.
+    -> It implements the map interface.
+    -> It is used to store and retireve values based on the keys.
+    -> It does not allows duplicates keys but it allows values.
+    -> It allows null keys and null values.
+
+Advatages of HashMap:
+
+    1. Allows insetion of key value pair.
+    2. It is a fall-fast iterator.
+    3. Faster access of elements due to hashong technology.
+    4. It is a non synchronized.
+
+Disadvatages of HashMap:
+
+      1. No guranted order.It print random order.
+      2. Performance trade-off.
+      3. Key uniqueness and null values.
+      3. Memory overhead.
+
+
+HashSet:
+
+    -> HashSet is a class. in java.      
+    -> It implementsthe set interface.
+    -> It stores only keys not store values.
+    -> It does not allows duplicates keys.
+
+Advatages of HashSet:
+
+    1. Unique keys.
+    2. Constant Time operations.
+    3. Flexible size.
+    5. It is Fast Lookup.
+
+Disadvatages of HashSet:
+
+    1. Unordered Collection.
+    2. No indexing.
+    3. Perormance degrations.
+    4. Overhead menas it contains more Memory.
+
+Difference between HashMap and HashSet:
+
+               HashMap                                                                     HashSet
+
+    1. It designed to store key-value pairs.                                It designed to store collection of unique elements.
+
+    2. Key must be unique.                                                  It does not allow duplicate values or keys.
+
+    3. It ordering elements randomly.                                       It ordering elements specific order.
+
+    4. It provides fast access to elment based on key.                      It offers faster lookup times for elment.
+
+    5.It implement map interface.                                           It implements set interface.  
+                                                                 
+
