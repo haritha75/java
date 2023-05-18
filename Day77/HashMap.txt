@@ -1,0 +1,22 @@
+HashMap: 
+   
+   HashMap is a class in java.
+   HashMap is taken from collection framework.
+   It contains key-value pair.
+   It does not allow kduplicate key value but it allows duplicate  value.
+
+Advatages of HashMap:
+
+   1. Efficient storage.
+   2. Flexible to use.
+   3. Easy to use.
+   4. Fast retrieval.
+   5. Suitable for large data sets.
+
+disadvantage s of HashMap:
+   
+   1. Not thread-safe.
+   2.  Unordered.
+   3. high memory usage.
+   4. More complex compare to arrays and lists. 
+
