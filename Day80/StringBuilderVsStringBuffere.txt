@@ -1,0 +1,31 @@
+StringBuilder:
+    
+    It is a mutable sequence of characters.
+    It is a alternative to the string class because string is immutable.
+    It is sy not synchronized.
+
+
+
+StringBuffere:
+ 
+   It is also same stringbuilder.
+   It is also alternative of string class.
+   It is  synchonized.
+
+
+
+ difference between StringBuilder and StringBuffere:
+
+
+           StringBuffer                                                  StringBuilder
+
+   1. It is synchornized.                                             It is not synchonized.
+
+   2. It is thred-safe.                                               It is not thread-safe.
+
+   3. Its strorage area is in the heap.                               Its strorage area is in the stack.
+
+   4. It consumes more memory.                                        It takes less memeory.
+
+   5. Introduced in java 1.0.                                         Introduced in java 1.5.
+
