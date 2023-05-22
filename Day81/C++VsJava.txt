@@ -1,0 +1,21 @@
+
+
+        C++                                                        Java
+
+1. C++ is a platform-dependent.                           It is aplatform-independent.
+
+2. It is used for system programming.                     It is used for application programming.
+
+3. It is an extension of c language.                      It is extension of C++.
+
+4. It support goto statement.                             It does not support goto statement.
+
+5. It supoort multiple inheritance.                       It  does not support multiple inheritance.
+
+6. It uses only compiler.                                 It uses both compiler and interpreter.
+
+7. It supports call by value and call                     It supports only call by value.  
+    by reference.
+
+8. It does not support unsigned right shift.              It support unsigned right shift.
+    
