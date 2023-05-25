@@ -4,7 +4,7 @@ public class ObjectClassReference {
 
 
         Object o = new Mock(); //here we are taking object class and creating object to the mock class its working because it is a parent class of all other classes.but not creating object to the object class using child class because it is not parent class of object class.
-        ((Mock) o).say();
+        ((Mock) o).say(); //here we are changing the datatype.and calling the function.
         
         
     }
