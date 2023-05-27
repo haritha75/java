@@ -7,17 +7,14 @@ public class VaribleAndMethodMatches {
 
         Scanner sc = new Scanner(System.in); 
 
-        boolean res1 = Pattern.matches("[^\\dA-Z]{1}[a-zA-z0-9_$\\S]*", "variableDeclaration");
-        System.out.println(res1);
-
-        String  regExp = "[^\\dA-Z@#!%^&*()]{1}[a-zA-Z0-9$_\\S]*"; //[^\\dA-z&!()^*]{1}[\\w\\S$]*
+        String  regExp = "[^\\dA-Z~`!@#%^&*()-+={}<>\\[\\]/?\\[\\].|;:,\"'/][\\w$]*"; //\\w means a-zA-Z0-9_
 
         boolean res;
         do {
 
             System.out.println("enter  varible name");
             String input = sc.next();
-            res = Pattern.matches("regExp", "input");
+            res = Pattern.matches(regExp, input);
             if(res) 
             
                System.out.println("your entered correct varible name");

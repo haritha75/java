@@ -10,7 +10,7 @@ public class PanCardVerification {
 
         String regExp = "[A-Z]{3}[PFCHAT][A-Z]{1}[0-9]{4}[A-Z]";
 
-        boolean m = Pattern.matches("regExp", "input");
+        boolean m = Pattern.matches(regExp, input);
 
         if(m) 
             

@@ -13,7 +13,7 @@ public class ConstantMatches {
 
             System.out.println("enter constant varible name");
             String input = sc.next();
-            res = Pattern.matches("regExp", "input");
+            res = Pattern.matches(regExp, input);
             if(res) 
             
                System.out.println("your entered correct varible name");

@@ -16,7 +16,7 @@ public class PanCard {
 
             System.out.println("enter pan card number");
             String input = sc.next();
-            res = Pattern.matches("regExp", "input");
+            res = Pattern.matches(regExp, input);
             if(res) 
             
                System.out.println("your pan car number has been noted");

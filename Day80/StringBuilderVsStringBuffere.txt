@@ -21,7 +21,7 @@ StringBuffere:
 
    1. It is synchornized.                                             It is not synchonized.
 
-   2. It is thred-safe.                                               It is not thread-safe.
+   2. It is thred-safe.because it has one thread.                     It is not thread-safe.It has multiple threads.
 
    3. Its strorage area is in the heap.                               Its strorage area is in the stack.
 

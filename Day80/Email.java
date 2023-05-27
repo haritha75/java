@@ -11,7 +11,7 @@ public class Email {
 
             System.out.println("enter pan card number");
             String input = sc.next();
-            res = Pattern.matches("email", "input");
+            res = Pattern.matches(email, input);
             if(res) 
             
                System.out.println("your email has been noted");
