@@ -11,7 +11,7 @@ public class MultiplicationUsingGenerics {
 class Multiplication {
 
    
-    public <T extends Number> float mul(T a, T b) { //it accept all type.if you not using generics then every type we have to creat new methods.here float menas return type whatever u=you it return float value.
+    public <T extends Number> float mul(T a, T b) { //it accept all type.if you not using generics then every type we have to creat new methods.here float menas return type whatever you  enter number like int, long it return float value.
         
         return a.floatValue() * b.floatValue();
     }
