@@ -4,7 +4,7 @@ public class ArrayList12 {
 
     public static void main(String[] args) {
 
-        MyArrayList myArrayList = new MyArrayList(4);
+        MyArrayList myArrayList = new MyArrayList(3);
         myArrayList.add(90);
         myArrayList.add(85);
         myArrayList.add(45);
@@ -14,6 +14,10 @@ public class ArrayList12 {
         System.out.println(myArrayList.get(5));
         System.out.println(myArrayList);
         System.out.println(myArrayList.getSize());
+        System.out.println(myArrayList.contains(7));
+        System.out.println(myArrayList.isEmpty());
+        System.out.println(myArrayList.set(2,43));
+        System.out.println(myArrayList);
         
     }
     
@@ -47,6 +51,9 @@ class MyArrayList {
             arr = arr2;    
             }
             arr[count++] = value;
+
+            if(count>size)
+              size++;
         }
       int get (int index) {
 
@@ -54,6 +61,15 @@ class MyArrayList {
             throw new IndexOutOfBoundsException();
 
         return arr[index];
+
+    }
+    boolean contains(int value) {
+        for(var x: arr) {
+            if(x==value)
+          return true;
+        }
+        return false;
+
 
     }
 
@@ -69,6 +85,16 @@ class MyArrayList {
     int getSize() {
 
         return size;
+    }
+
+    boolean isEmpty() {
+        if(size<0)
+          return  true;
+        return false;
+
+    }
+    int set(int ind,int value) {
+        return arr[ind] = value; //here updating the value at index 2.
     }
 
 
