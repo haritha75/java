@@ -17,6 +17,7 @@ public class ArrayList12 {
         System.out.println(myArrayList.contains(7));
         System.out.println(myArrayList.isEmpty());
         System.out.println(myArrayList.set(2,43));
+        System.out.println(myArrayList.size);
         System.out.println(myArrayList);
         
     }
@@ -88,7 +89,7 @@ class MyArrayList {
     }
 
     boolean isEmpty() {
-        if(size<0)
+        if(size==0)
           return  true;
         return false;
 
