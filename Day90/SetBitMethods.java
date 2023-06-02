@@ -51,8 +51,8 @@ public class SetBitMethods {
         bitSet.clear(0, 7); //it clear the entire bit from 0 to 7th index.
         System.out.println(bitSet);
 
-        bitSet3.equals(bitSet2); //this  method is used to compare the current object with the specified object.
-        System.out.println(bitSet3); 
+        System.out.println(bitSet3.equals(bitSet2));//this  method is used to compare the current object with the specified object.if length same it return true or all index of bits are same return true.
+
 
         bitSet3.flip(4); //it set the bit to complement value means 0 to 1 and 1 to 0.
         System.out.println(bitSet3);
@@ -69,6 +69,7 @@ public class SetBitMethods {
         System.out.println(bitSet3.nextSetBit(61)); //it returns the index of first bit which is set to true that occurs on or after specified index.here 61 is true because we have 61 index or bit.
         System.out.println(bitSet.previousClearBit(62)); //it returns the index of the nearest bit which is set to false which occurs on or before the specified index.
         System.out.println(bitSet.previousSetBit(61)); //it returns the index of the nearest bit which is set to ture which occurs on or before the specified index.
+
 
 
 
