@@ -2,7 +2,7 @@
 import java.lang.reflect.Field;
 
 public class ReflectionApI12 {
-    public static void main(String[] args) throws IllegalAccessException {
+    public static  void main(String[] args) throws IllegalAccessException {
 
       Shock s1 = new Shock();
         Field[] fields = s1.getClass().getDeclaredFields(); //it returns all variables
