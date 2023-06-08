@@ -12,6 +12,8 @@ class Raj {
         void print() {
             System.out.print(name.toUpperCase());
         }
+        @Cock(star="duck")
+        @Cock(star="rock")
         void printLn() {
             System.out.print("*");
         }
