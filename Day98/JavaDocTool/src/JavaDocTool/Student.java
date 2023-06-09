@@ -7,6 +7,9 @@ package JavaDocTool;
 
 /**
  * Student class stores  all the information about student.
+ *@author Haritha
+ *@version 1.0
+ *@since 2019
  */
 public class Student {
 
