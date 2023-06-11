@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"rectanguarjavadoc"}]
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"geometricjavadoc"}]
