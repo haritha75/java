@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"rectanguarjavadoc","l":"Geometric"},{"p":"rectanguarjavadoc","l":"Rectangle"}]
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"rectanguarjavadoc","l":"Circle"},{"p":"rectanguarjavadoc","l":"Geometric"},{"p":"rectanguarjavadoc","l":"Rectangle"}]
