@@ -1,0 +1,17 @@
+Serilizations :
+    
+    -> Serilization in java allows us to convert an object to byte stream that we can send over the network or save it as file or store in database for later usage.
+    -> A class must implement serilizable interface to be eligible for serilization.
+    -> for  example,  you are going to visit your home after 20yrs and you want the same things,same arrangments and many more things which you left 20 yrs ago in same condition as where u left...then it is serilization.
+          it means you saved the state of things which make them serilize.
+
+
+De-Serilization :
+
+    -> It is the process of converting  byte stream to actual java object to be used in our program.  
+    -> It works the opposite of serilization.
+
+
+why you need serlization and de-serilization:
+
+  -> The main purpose of serlization and de-serlization is to persist the data and recreate it whatever needed.        
