@@ -1,0 +1,19 @@
+Clean Code :
+   
+   -> Clean Code is clear,understandable, and maintainable.
+   -> When you write clean code,you are keeping in mind the other people who may read and interpret you code at a later time.
+   -> You are helping others understand the purpose of your code so that they  can use make changes to it eventually.
+   -> Also have one quotes about the code that is "ANY FOOL CAN WRITE CODE THAT A COMPUTER CAN UNDETSTAND.GOOD PROGRAMMERS WRITE CODE THAT HUMANS CAN UNDERSTNAD".That means write a code in meaningful manner.
+
+Rules of Clean Code :
+  They are many rules have but mainly this are,
+
+  -> Give meaningful names to variables,functions,classes, and other entities in the code.
+  -> Create functions that ate small and do a single thing.
+  -> Encapsulate related data and functions into small independent classes.
+  -> Structure the code for better readability.
+
+Why do we need clean code :
+
+  -> Developer's work environment would be better.
+  -> Developer spend most of their time reading and writing code, and having this code clean would mean a significant upgrade to their work environment.     
