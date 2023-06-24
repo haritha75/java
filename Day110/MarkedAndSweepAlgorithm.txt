@@ -1,0 +1,14 @@
+MarkedAndSweep Alogorithm :
+   
+      -> It  has two phases.
+      -> 1) Mark phase
+         2) Sweep phase
+
+      1) Mark phase :
+        
+         -> whenever object is created ,its mark bit is set to 0(false).
+         -> In this mark phase if object will be pointing to the reference variable  then set the marked bit for all the reachable objects.tha means that object will be marked that will be true(1).
+
+      2) Sweep phase :
+
+        -> whenever object not poinitng to the reference variable then it set to the false(0) or not marked then remove the unreachable objects from the heap.    
