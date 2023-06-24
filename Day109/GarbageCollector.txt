@@ -1,0 +1,14 @@
+GarbageCollector :
+
+             -> Garbage Collector in java is the automated process of deleting code that's no longer needed or used.
+             -> This automatically frees up memory space and ideally makes coding java apps easier for developers.
+             -> When java programs run on the jvm,objects  are created on the heap, which is a portion of memory dedicated to the program.
+             -> Eventually, some objects will no longer be needed.
+             -> The garbabge collector finds these unused objects and deletes then to free up memory.
+             -> The main main objective of garbage collector is to free heap memory by destryoing unreachable objects(like assigning null).
+
+How does Garbage collector works in java :
+                 
+            -> java garbage collection is an automatic  process.
+            -> Automatic garbage collection is the process of looking at heap memeory,identifying which objects are in use and which object are not in use, 
+                 and deleting the unused objects from the memory.The main advantage of java garbage collector is  automatically removes unused objects.
