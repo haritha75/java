@@ -16,7 +16,7 @@ arr[i]=arr[j];
 arr[j]=temp;
 }
 }
-System.out.print(Arrays.toString(arr));
+System.out.println(Arrays.toString(arr));
 }
 }
 

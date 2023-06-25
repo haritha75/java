@@ -1,0 +1,10 @@
+Marker Interface :
+     
+     -> It is a empty interface .it does not contain fields ,methods and constants.
+     -> Example of marker interface are serilizable ,clonable and remote interface.this all are empty interfaces.
+     -> It is used for some allowing permission or security purpose.
+
+
+Why we need marker interface : 
+
+     -> It provides run-time type information about objects,so the compiler and jvm have additional infromation about the object.
