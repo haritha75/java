@@ -2,7 +2,7 @@
 -> Java sealed classes and interfaces restrict that which classes and interfaces may extend or implement them.
 -> In other words, we can say that the class that cannot be inherited but can be instantianted is knows as the sealed class.
 -> It allos classes and interfaces to have more control over their permitted subtypes.
--> This concept obly preview feature, not a permanent feature.
+-> This concept only preview feature, not a permanent feature.
 
 Advantages :
  
