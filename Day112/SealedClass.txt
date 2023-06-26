@@ -1,0 +1,10 @@
+-> java 15 introduced the concept of sealed classes.
+-> Java sealed classes and interfaces restrict that which classes and interfaces may extend or implement them.
+-> In other words, we can say that the class that cannot be inherited but can be instantianted is knows as the sealed class.
+-> It allos classes and interfaces to have more control over their permitted subtypes.
+-> This concept obly preview feature, not a permanent feature.
+
+Advantages :
+ 
+   -> It allows permission to the subclasses that can extend the sealed superclasss.
+   -> It makes superclass broadly accessible but not broadly extensible.
