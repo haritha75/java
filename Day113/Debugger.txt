@@ -1,0 +1,20 @@
+Debugging :
+
+        -> Debugging is an essential part of software development,as it helps developers identify and fix errors in their code.
+        -> It allows to set breakpoints,examine, variable,and step through the code,helping them identify and fix issues in their code quickly.
+
+Advantages :
+
+        Platform independence : It can run on any platform that supports java,making it a highly portable tool.
+
+        Remote debugging : Allowing developers to debug java code running on a remote machine.     
+
+commands in Debugging :
+
+
+1. BreakPoint : it is used to set breakpoint at a specified line number or method. that means where you have doubt about mistake keep it breakpoint on that line  and check the each line.before breakpoint it excute the program and then stop because we mentioning breakpoint.
+2. Run : It is used to execute the program.
+3. Step Into : It executes current line and whenever click again step into and again go to next line.that means it checks step by step.
+4. Step Over : It excutes complete current method.
+5. Step Out : It excutes total method or code and returning it.
+6. Console : Debugger returns output in console.
