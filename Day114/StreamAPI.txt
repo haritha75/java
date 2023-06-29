@@ -1,0 +1,12 @@
+StreamAPI : 
+   
+   -> sequence  of data that supports multiple  operations like filtering, mapping ,collect etc.
+   -> Donot cahnge the original structure.
+   -> It read the data that data will be removed from stream.
+   -> Donot hold data,streams process data.
+
+Streams Are lazy :
+         
+          -> Streams are lazy  because intermediate operations are not evaluted unless terminal operations is invoked.
+
+          -> Yes, because intermediate operations intially sleeping level whenever  terminal operations calling the intermediate operations  that time intermediate operations start working. so that's why streams are lazy.

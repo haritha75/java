@@ -1,0 +1,7 @@
+OptionalClass :
+
+           -> EveryOne knows NullPointerException ,this exception crash your code.
+           -> It is very hard to avoid it without using too many null checks.so overcoming this optional class introduced in java 8.
+           -> It can help in writing a neat code without using too many null checks.
+           -> By using optional, we can specify alternative values to return or alternate code to run.
+           -> And also used if you code not execute all the time succefully that time use optional class then it covers the error or exception.

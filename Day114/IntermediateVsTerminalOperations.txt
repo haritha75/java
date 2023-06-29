@@ -1,0 +1,18 @@
+
+Intermediate Operations :
+
+             -> Some operations produce another stream as result called Intermediate Operations.
+             -> they can be chained together to form a pipeline of operations.
+             -> pipeline of operations may contain any number of intermediate operations.
+             -> They donot produce end result.
+             -> This are lazily loaded.  
+             -> Example : map(),filter(),sorted(),limit() etc.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 loaded.
+
+Terminal Operations : 
+
+            -> Some operations produce non-stream as result like collection or return nothing are called Terminal Operations. 
+            -> It cannot be chained together.      
+            -> In pipeline only one terminal operations contain that too at the end of pipeline.      
+            -> They produce end result. 
+            -> This are eagerly loaded.
+            -> Example : forEach(),reduce(),collect() etc.

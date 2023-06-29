@@ -1,0 +1,14 @@
+Stream.Of() : 
+
+           -> It returns a sequencial ordered stream.
+           -> This method calls the Arrays.stream() method for non-primitive  types like strings.
+           -> It returns the Stream or generic stream of type T.that means ic can be used any type.
+           -> It is used to converting non-primitive datatype arrays into streams for this purpose you are using this method.
+
+
+Arrays.Steam() :
+
+           -> It is used for processing of streams of primitive types are their primitive streams types.
+           -> It returns IntStream,LongStream and DoubleStream.
+           -> It only works int[],long[] and double[] type.remaining promitive types its not work.
+           -> It is also returns the data sequentially.
