@@ -1,0 +1,7 @@
+covariant Return Type :
+
+       -> Covarient return type specifies that the return type may vary in the same direction as the subclass.
+       -> Before java5, it was not possible to override any method by changing the return type.
+       -> But now,since java5 ,it is possible to override method by changing the return type if subclass overrides any method whose return  type is non-primitive but it change its return type to subclass type.
+       -> When we override a parent class method,the name,argumetn type, and return type of the overriding method in child class has to be exactly same as that of parent class method.
+            but covariant return type means we can mention overriding method  return type subclass or parent class name or object and parent class method return type mention parent class object or name. 
