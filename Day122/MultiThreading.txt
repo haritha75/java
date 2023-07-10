@@ -1,0 +1,20 @@
+MultiThreading: 
+  
+        -> MultiThreading in java is a process of executing two or more threads simultaneously.
+        -> Thread is lightweight-sub process, the smallest unit of processing.
+        -> It can handle multiple requests from the same user.
+        -> Threads can created by using two ways:
+           1) Extending the Thread class.
+           2) Implementing the runnable interface.
+
+
+  1) Thread creaation by extending the thread class:
+
+       -> We create a class that class extends the thread class and overrides the threads class method in this class.
+       -> We create object  to the class and call the start method whenever call the start method to start the exectuion of a thread.
+       -> start() methods invoke the run() method on the thread object.
+
+  2) Thread creation by implementing the runnable interface:
+
+       -> We create a class and implementing the runnable interface and overrides run() method. Then we instantiate a thread object and call start()
+           method on this object.              
