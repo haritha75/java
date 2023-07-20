@@ -17,6 +17,11 @@ public class Time {
         this.minutes = minutes;
         this.seconds = seconds;
 
+        simplify(seconds);
+
+
+    }
+    private void simplify(int seconds) {
         if(seconds > 59) {
             this.seconds = this.seconds%60;
             this.minutes += seconds/60;
@@ -44,6 +49,13 @@ public class Time {
         return hour+":"+minute+":"+second;
     }
 
+    public static Time addTwoTimes(Time t1, Time t2) {
+        int totalHours = t1.hours+t2.hours;
+        int totalSeconds = t1.seconds+t2.seconds;
+        int totalMinutes = t1.minutes+t2.minutes;
 
+        Time t3 = new Time(totalHours,totalMinutes,totalSeconds);
+        return t3;
+    }
 
 }
