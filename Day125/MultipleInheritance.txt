@@ -1,0 +1,6 @@
+Multiple Inheritance :
+  
+  -> In java Multiple Inheritance does not support.
+  -> To Prevent ambiguity java does not support multiple inheritance.
+  -> For example, Consideer A class where class B extends class A and class C and both class A and C have the same method dispaly().
+  -> Now java compiler cannot decide,which display method it should inherit.To prevent such situation,multiple inheritance is not allowed in java.

@@ -1,0 +1,5 @@
+Cyclic Inheritance :
+
+   -> In java cyclic inheritance does not allowed if a class,be inner or outer, attempts to inherits from itself.
+   -> Simply cyclic inheritance means a class  inherits itself.
+   -> Cyclic inheritance is absurd conceptually because it implies that a class is its superclass and sbclass at  the same time.
