@@ -1,0 +1,18 @@
+Compiler :
+
+     -> It converts the source code to  bytecode.
+     -> It will check entire program at a time.
+     -> If you have one error entire program it does not excute the program.
+     -> It stores the data or code in class file.
+     -> class files occupies space in memeory.
+     -> It translates the entire source code in single run.
+     -> It is faster than interpreter because it can store code in class file therie is no need to compile everytime.
+
+ Interpreter :
+
+     -> It also converts source to bytecode.
+     -> It will check line by line code.
+     -> If you have an error in the code still it excutes or generate output till the error.
+     -> It does not store the code in anywhere.
+     -> It translates the enitre code line by line.
+     -> It consumes much more time than the compiler because it does not store the code anywhere so every time we can excute the code so that's why it takes more time. 

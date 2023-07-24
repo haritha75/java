@@ -1,0 +1,11 @@
+CPU: 
+  
+  -> CPU means control processing unit.
+  -> It is the most important processor in a computer.
+  -> It is a brain of the computer.
+  -> CPU made up of transistors.
+  -> Based on Semi-Conductor technology CPU works.
+  -> It excutes instrctions of computer program, such as arithmetic,logic,controlling.input and output operations.
+  -> All the important functions of computer are performed by the CPU.
+  -> It helps input and output devices to communicate with each other and performing their operations.
+  -> It also stores data which is input,intermediate result in between processing, and instructions.
