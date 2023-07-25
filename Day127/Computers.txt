@@ -1,0 +1,53 @@
+Evolution of Computers :
+
+
+         -> A long years ago we do not have money only barter system that means exchanging the things only not money because on that time we donot have money.
+         -> Diadvantages of barter system if two persons are far distance,then barter system will not work.
+         -> After few years to overcome barter system money system  is introduced .In this system exchanging monney and things.
+         -> Long years ago counting purpose people used sticks,stones and bones for counting like  values,sheeps or anything.But it takes much time.
+         -> To overcome above one introduced number system.They are 4 types 1)binary 2)decimal 3)octal 4)hexadeciaml systems.
+         -> By using decimal system we can calculate the data but, it takes more time,less accuaracy and more man power involvment.
+         -> To ovecome this problem we are introducing calculators.
+         -> After few years we have calculators but in calculations also have mistakes for example we can calculate 50 persons bill then it takes more and sometime entered wrong input also.
+         -> And also one more thing calculator not stored data whenever complet the thing it will not stored.
+         -> As human mind and technology improved with time more computing devices were developed.
+         -> History of computer begins with the birth of abacus which is believed to be the first computer.
+         -> Abacus was a wooden rack which has metal rods with breads mounted on them.
+         -> Abacus breads were moved by the abaacus operator according to some rules to perform arithmetic calculations but takes much time.
+         -> After abacus so many came like Naiper's Bones,Pascaline....etc
+         -> After computers are came, with the use of computer we can calculate and store the data ,less time takes, less man power, accuracy is 100%.
+         -> Also if you have any information you can search the informations using computers.
+
+
+ Generations of Computers :
+
+      1) First Generation(1940 to 1956) :
+        
+          -> First electronic computer used vaccum tubes as a serious pieces of technology.
+          -> The computers of this generation were heavy, bulky and  used a lot of electricity.
+          -> Computers of the first generation conducted operations using machine language, a low-level programming language.
+
+      2) Second Generation(1956 to 1963) :
+
+           -> Second-generation computers were developed using transistor technology instead of vacuum tubes. 
+           -> The size of the computers was smaller, and the calculation time was also shorter compared with computers of the first generation.
+
+     3) Third Generation(1964 to 1971) :
+
+           -> It consist of Assembly language. 
+           -> Assembler is used to convert the Assembly language into machine code.
+
+     4)  Fourth Generation(1972 to 2010) :      
+ 
+           -> It consist of high level languages.
+           -> for example java,python,c++....etc
+           -> Easy to write the code.
+           -> And also easy to understand.
+           -> Code is in noraml engalish.
+           -> It is better than Compared to binary and Assembly languages. 
+
+      5) Fifth Generation(2010 to present) :
+
+        -> Firth generations of computers is predicated on artificial intelligence.
+        -> AI is an advanced technology that contains various possible applications aall over the world.
+        -> Tha main purpose of this generations of computers is to make a device more capable of self-organization and learning, including the cloud resond to natural language input.    
