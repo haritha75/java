@@ -1,0 +1,37 @@
+Logging :
+ 
+     In logging we have some details about issue.
+
+     Need for log capture:
+
+        -> Recording  ususual circumstances or errors that may be happening  in the program.
+        -> Gettiing the information about whats going in the application.
+        -> The details can be obtained from the logs.
+        -> It provide total information about the  issues.
+
+    Log Levels:
+
+         -> Log levels controls logging details.
+         -> Each level is associated with a numeric value and there are 7 basic log levels and 2 special ones.
+
+
+         1) Severe: It is used for some serious failure.It occurs when something terrible has occured and the application cannot continue further.like databse unavailble,out of memeory.
+         2) warning: It is used for potential problem.It occurs whenever the user has given wrong input.
+         3) Info: It is used for general info.It mostly used for the actions that have leead to a change in state for the application.
+         4) Config: It is used for configuration info.Configuration infromation like what cpu application is running on, how much is this disk and memeory space.
+         5) Fine: It is used for general developer info.It displays important messages out of these.
+         6) Finer: It is used for detailed developer info.It trace the message detailedly.
+         7) Finest: It is used for specialized developer info.It provides highly detailed tracing message.
+
+    Special levels:
+
+         1) Off: It does not capturing anything.
+         2) All: It caputring everything.
+
+Advantages:
+
+
+          -> It saves lot of time.
+          -> And also it gives correct details or info.
+          -> And we can identifying exact moment where acturally error occurs.
+               
