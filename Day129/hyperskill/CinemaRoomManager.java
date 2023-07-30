@@ -1,3 +1,4 @@
+package hyperskill;
 
 import java.util.Scanner;
 
@@ -13,9 +14,9 @@ public class CinemaRoomManager {
     static int totalIncome;
     public static void main(String[] args) {
 
-        rows = isRowsValid("rows");
+        rows = isValidRows("rows");
 
-        howManySeatsInRows = isRowsValid("seats");
+        howManySeatsInRows = isValidRows("seats");
 
         totalSeats = new char[rows][howManySeatsInRows];
         for (int i = 0; i < rows; i++) {
@@ -60,7 +61,7 @@ public class CinemaRoomManager {
 
     }
 
-    public static int isRowsValid(String data) {
+    public static int isValidRows(String data) {
         int rows;
         while (true){
             try {
