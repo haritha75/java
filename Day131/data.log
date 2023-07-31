@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-07-31T15:53:40.344147Z</date>
+  <millis>1690818820344</millis>
+  <nanos>147000</nanos>
+  <sequence>0</sequence>
+  <logger>FileHandlerExample</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerExample</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>file configuration done successfully</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-07-31T15:54:31.562590Z</date>
+  <millis>1690818871562</millis>
+  <nanos>590000</nanos>
+  <sequence>0</sequence>
+  <logger>FileHandlerExample</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerExample</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>file configuration done successfully</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-07-31T15:54:37.306079Z</date>
+  <millis>1690818877306</millis>
+  <nanos>79000</nanos>
+  <sequence>0</sequence>
+  <logger>FileHandlerExample</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerExample</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>file configuration done successfully</message>
+</record>
+</log>

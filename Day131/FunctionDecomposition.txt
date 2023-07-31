@@ -1,0 +1,29 @@
+Function Decomposition:
+
+       -> It means diving a complex program into subroutines is called functional decomposition.
+       -> Some times, your program becomes more complex if you diving  that code into number of methods then your code become easy to understand and more readable.
+
+       1) Solving complex tasks:
+        
+             -> if you have complex problem then diving into the number of pieces that pieces are called methods.
+             -> And also you can reuse some operations also.
+             -> And also code become more readable using function decomposition.
+
+        2) Decomposing a program into methods:    
+
+              -> Functional decomposition is simply a process of decomposing a problem into several functions  or methods.
+              -> Each method does a particular task so that we can perform these methods in a rpw tp get the result.
+              -> Think which action we need to reuse multiple times,perform seperately.This is how we get desired methods.
+              -> These methods are easy to read,understand,reuse,test and debug.
+
+        3) Adding New Features:
+
+               -> if you want to add another action,then we have to do is define the method with  action.
+               -> And also if you have any changes on code then you can modify adding new things also.
+
+ Advantages:
+
+             -> It make changes easily.
+             -> Test methods seperately.
+             -> It Makes your code more readable.
+             -> And also resue the code multiple times.
