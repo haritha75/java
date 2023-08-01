@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-08-01T02:20:18.821823Z</date>
+  <millis>1690856418821</millis>
+  <nanos>823000</nanos>
+  <sequence>0</sequence>
+  <logger>Hostel</logger>
+  <level>SEVERE</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>severe level</message>
+</record>
+<record>
+  <date>2023-08-01T02:20:18.828211Z</date>
+  <millis>1690856418828</millis>
+  <nanos>211000</nanos>
+  <sequence>1</sequence>
+  <logger>Hostel</logger>
+  <level>WARNING</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>warning level</message>
+</record>
+<record>
+  <date>2023-08-01T02:20:18.828871Z</date>
+  <millis>1690856418828</millis>
+  <nanos>871000</nanos>
+  <sequence>2</sequence>
+  <logger>Hostel</logger>
+  <level>INFO</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>info level</message>
+</record>
+<record>
+  <date>2023-08-01T02:20:18.829102Z</date>
+  <millis>1690856418829</millis>
+  <nanos>102000</nanos>
+  <sequence>3</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>config level</message>
+</record>
+<record>
+  <date>2023-08-01T02:20:18.829284Z</date>
+  <millis>1690856418829</millis>
+  <nanos>284000</nanos>
+  <sequence>4</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>fine</message>
+</record>
+<record>
+  <date>2023-08-01T02:20:18.829449Z</date>
+  <millis>1690856418829</millis>
+  <nanos>449000</nanos>
+  <sequence>5</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>finer</message>
+</record>
+<record>
+  <date>2023-08-01T02:20:18.829629Z</date>
+  <millis>1690856418829</millis>
+  <nanos>629000</nanos>
+  <sequence>6</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>finest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-08-01T02:21:04.547379Z</date>
+  <millis>1690856464547</millis>
+  <nanos>379000</nanos>
+  <sequence>0</sequence>
+  <logger>Hostel</logger>
+  <level>SEVERE</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>severe level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:04.558590Z</date>
+  <millis>1690856464558</millis>
+  <nanos>590000</nanos>
+  <sequence>1</sequence>
+  <logger>Hostel</logger>
+  <level>WARNING</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>warning level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:04.558964Z</date>
+  <millis>1690856464558</millis>
+  <nanos>964000</nanos>
+  <sequence>2</sequence>
+  <logger>Hostel</logger>
+  <level>INFO</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>info level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:04.559273Z</date>
+  <millis>1690856464559</millis>
+  <nanos>273000</nanos>
+  <sequence>3</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>config level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:04.559561Z</date>
+  <millis>1690856464559</millis>
+  <nanos>561000</nanos>
+  <sequence>4</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>fine</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:04.559866Z</date>
+  <millis>1690856464559</millis>
+  <nanos>866000</nanos>
+  <sequence>5</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>finer</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:04.560184Z</date>
+  <millis>1690856464560</millis>
+  <nanos>184000</nanos>
+  <sequence>6</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>finest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-08-01T02:21:05.680990Z</date>
+  <millis>1690856465680</millis>
+  <nanos>990000</nanos>
+  <sequence>0</sequence>
+  <logger>Hostel</logger>
+  <level>SEVERE</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>severe level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:05.686850Z</date>
+  <millis>1690856465686</millis>
+  <nanos>850000</nanos>
+  <sequence>1</sequence>
+  <logger>Hostel</logger>
+  <level>WARNING</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>warning level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:05.687341Z</date>
+  <millis>1690856465687</millis>
+  <nanos>341000</nanos>
+  <sequence>2</sequence>
+  <logger>Hostel</logger>
+  <level>INFO</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>info level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:05.687540Z</date>
+  <millis>1690856465687</millis>
+  <nanos>540000</nanos>
+  <sequence>3</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>config level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:05.687729Z</date>
+  <millis>1690856465687</millis>
+  <nanos>729000</nanos>
+  <sequence>4</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>fine</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:05.687901Z</date>
+  <millis>1690856465687</millis>
+  <nanos>901000</nanos>
+  <sequence>5</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>finer</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:05.688087Z</date>
+  <millis>1690856465688</millis>
+  <nanos>87000</nanos>
+  <sequence>6</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>finest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-08-01T02:21:06.219152Z</date>
+  <millis>1690856466219</millis>
+  <nanos>152000</nanos>
+  <sequence>0</sequence>
+  <logger>Hostel</logger>
+  <level>SEVERE</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>severe level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:06.226831Z</date>
+  <millis>1690856466226</millis>
+  <nanos>831000</nanos>
+  <sequence>1</sequence>
+  <logger>Hostel</logger>
+  <level>WARNING</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>warning level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:06.227068Z</date>
+  <millis>1690856466227</millis>
+  <nanos>68000</nanos>
+  <sequence>2</sequence>
+  <logger>Hostel</logger>
+  <level>INFO</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>info level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:06.227238Z</date>
+  <millis>1690856466227</millis>
+  <nanos>238000</nanos>
+  <sequence>3</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>config level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:06.227420Z</date>
+  <millis>1690856466227</millis>
+  <nanos>420000</nanos>
+  <sequence>4</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>fine</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:06.227563Z</date>
+  <millis>1690856466227</millis>
+  <nanos>563000</nanos>
+  <sequence>5</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>finer</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:06.227783Z</date>
+  <millis>1690856466227</millis>
+  <nanos>783000</nanos>
+  <sequence>6</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>finest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-08-01T02:21:06.719053Z</date>
+  <millis>1690856466719</millis>
+  <nanos>53000</nanos>
+  <sequence>0</sequence>
+  <logger>Hostel</logger>
+  <level>SEVERE</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>severe level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:06.725635Z</date>
+  <millis>1690856466725</millis>
+  <nanos>635000</nanos>
+  <sequence>1</sequence>
+  <logger>Hostel</logger>
+  <level>WARNING</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>warning level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:06.725880Z</date>
+  <millis>1690856466725</millis>
+  <nanos>880000</nanos>
+  <sequence>2</sequence>
+  <logger>Hostel</logger>
+  <level>INFO</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>info level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:06.726065Z</date>
+  <millis>1690856466726</millis>
+  <nanos>65000</nanos>
+  <sequence>3</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>config level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:06.726226Z</date>
+  <millis>1690856466726</millis>
+  <nanos>226000</nanos>
+  <sequence>4</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>fine</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:06.726391Z</date>
+  <millis>1690856466726</millis>
+  <nanos>391000</nanos>
+  <sequence>5</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>finer</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:06.726601Z</date>
+  <millis>1690856466726</millis>
+  <nanos>601000</nanos>
+  <sequence>6</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>finest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-08-01T02:21:07.727201Z</date>
+  <millis>1690856467727</millis>
+  <nanos>201000</nanos>
+  <sequence>0</sequence>
+  <logger>Hostel</logger>
+  <level>SEVERE</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>severe level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:07.735371Z</date>
+  <millis>1690856467735</millis>
+  <nanos>371000</nanos>
+  <sequence>1</sequence>
+  <logger>Hostel</logger>
+  <level>WARNING</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>warning level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:07.735614Z</date>
+  <millis>1690856467735</millis>
+  <nanos>614000</nanos>
+  <sequence>2</sequence>
+  <logger>Hostel</logger>
+  <level>INFO</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>info level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:07.735776Z</date>
+  <millis>1690856467735</millis>
+  <nanos>776000</nanos>
+  <sequence>3</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>config level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:07.735907Z</date>
+  <millis>1690856467735</millis>
+  <nanos>907000</nanos>
+  <sequence>4</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>fine</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:07.736037Z</date>
+  <millis>1690856467736</millis>
+  <nanos>37000</nanos>
+  <sequence>5</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>finer</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:07.736167Z</date>
+  <millis>1690856467736</millis>
+  <nanos>167000</nanos>
+  <sequence>6</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>finest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-08-01T02:21:08.278364Z</date>
+  <millis>1690856468278</millis>
+  <nanos>364000</nanos>
+  <sequence>0</sequence>
+  <logger>Hostel</logger>
+  <level>SEVERE</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>severe level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:08.283155Z</date>
+  <millis>1690856468283</millis>
+  <nanos>155000</nanos>
+  <sequence>1</sequence>
+  <logger>Hostel</logger>
+  <level>WARNING</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>warning level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:08.283325Z</date>
+  <millis>1690856468283</millis>
+  <nanos>325000</nanos>
+  <sequence>2</sequence>
+  <logger>Hostel</logger>
+  <level>INFO</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>info level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:08.283467Z</date>
+  <millis>1690856468283</millis>
+  <nanos>467000</nanos>
+  <sequence>3</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>config level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:08.283636Z</date>
+  <millis>1690856468283</millis>
+  <nanos>636000</nanos>
+  <sequence>4</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>fine</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:08.283803Z</date>
+  <millis>1690856468283</millis>
+  <nanos>803000</nanos>
+  <sequence>5</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>finer</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:08.283981Z</date>
+  <millis>1690856468283</millis>
+  <nanos>981000</nanos>
+  <sequence>6</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>finest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-08-01T02:21:08.990121Z</date>
+  <millis>1690856468990</millis>
+  <nanos>121000</nanos>
+  <sequence>0</sequence>
+  <logger>Hostel</logger>
+  <level>SEVERE</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>severe level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:08.993329Z</date>
+  <millis>1690856468993</millis>
+  <nanos>329000</nanos>
+  <sequence>1</sequence>
+  <logger>Hostel</logger>
+  <level>WARNING</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>warning level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:08.993554Z</date>
+  <millis>1690856468993</millis>
+  <nanos>554000</nanos>
+  <sequence>2</sequence>
+  <logger>Hostel</logger>
+  <level>INFO</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>info level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:08.993790Z</date>
+  <millis>1690856468993</millis>
+  <nanos>790000</nanos>
+  <sequence>3</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>config level</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:08.994012Z</date>
+  <millis>1690856468994</millis>
+  <nanos>12000</nanos>
+  <sequence>4</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>fine</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:08.994228Z</date>
+  <millis>1690856468994</millis>
+  <nanos>228000</nanos>
+  <sequence>5</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>finer</message>
+</record>
+<record>
+  <date>2023-08-01T02:21:08.994488Z</date>
+  <millis>1690856468994</millis>
+  <nanos>488000</nanos>
+  <sequence>6</sequence>
+  <logger>Hostel</logger>
+  <level>CONFIG</level>
+  <class>FileHandlerWithSetUseParentHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>finest</message>
+</record>
+</log>
+Aug 01, 2023 7:52:48 AM FileHandlerWithSetUseParentHandler main
+SEVERE: severe level
+Aug 01, 2023 7:52:48 AM FileHandlerWithSetUseParentHandler main
+WARNING: warning level
+Aug 01, 2023 7:52:48 AM FileHandlerWithSetUseParentHandler main
+INFO: info level
+Aug 01, 2023 7:52:48 AM FileHandlerWithSetUseParentHandler main
+CONFIG: config level
+Aug 01, 2023 7:52:48 AM FileHandlerWithSetUseParentHandler main
+CONFIG: fine
+Aug 01, 2023 7:52:48 AM FileHandlerWithSetUseParentHandler main
+CONFIG: finer
+Aug 01, 2023 7:52:48 AM FileHandlerWithSetUseParentHandler main
+CONFIG: finest
+Aug 01, 2023 7:53:08 AM FileHandlerWithSetUseParentHandler main
+SEVERE: severe level
+Aug 01, 2023 7:53:08 AM FileHandlerWithSetUseParentHandler main
+WARNING: warning level
+Aug 01, 2023 7:53:08 AM FileHandlerWithSetUseParentHandler main
+INFO: info level
+Aug 01, 2023 7:53:08 AM FileHandlerWithSetUseParentHandler main
+CONFIG: config level
+Aug 01, 2023 7:53:08 AM FileHandlerWithSetUseParentHandler main
+CONFIG: fine
+Aug 01, 2023 7:53:08 AM FileHandlerWithSetUseParentHandler main
+CONFIG: finer
+Aug 01, 2023 7:53:08 AM FileHandlerWithSetUseParentHandler main
+CONFIG: finest
