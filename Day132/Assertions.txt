@@ -1,0 +1,19 @@
+Assertions :
+
+      -> It mainly used to detect the bugs by testing code.
+      -> Assertions allows testing the correctness of any ansumptions that have been made in the program.
+      -> An Assertions is achieved using the assert keyword statement in java.
+      -> while excuting assertion, it is believed to be true.
+      -> If it fails, then jvm will throws an error named AssertionError.
+      -> Mainly used for testing purpose during developement.
+      -> assert statement is used with a boolean expression.
+      -> Assertions are generally diabled at run time.
+      -> It is used in the levels of testing and debugging not used in deployment level.
+
+Advantages :
+
+     -> Quick and efficient for detecting and correcting bugs.
+     -> Assertion checks are done only during development and testing.Automatically removed in the production code or deployment level at run time so that it  wonnot slow the execution of the program.
+     -> It helps remove boilerplate code and make code more readable.
+     
+
