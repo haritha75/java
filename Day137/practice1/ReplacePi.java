@@ -27,8 +27,10 @@ public class ReplacePi {
    if(str.length()<=1)
      return str;
 
-   if(str.charAt(0)=='p'&&str.charAt(1)=='i' && str.length()>=2)
+   if(str.charAt(0) == 'p'&&str.charAt(1) == 'i' && str.length() >= 2)
+
      return "3.14"+replacePi(str.substring(2));
+
    return str.charAt(0)+replacePi(str.substring(1));
  }
   
