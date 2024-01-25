@@ -5,7 +5,7 @@ public class BunnyEars {
     System.out.println(bunnyEars(4));
     
   }
-  int bunnyEars(int bunnies) {
+  public static int bunnyEars(int bunnies) {
 
     if(bunnies==0)
       return 0;
