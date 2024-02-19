@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <welcome-file-list>
+        <welcome-file>login.html</welcome-file>
+    </welcome-file-list>
+<!--    to establish connect we need one tag called inti param tag it contains only one name and value pair-->
+<!--    and also mentioning each servlet page -->
+    <servlet>
+        <servlet-name>hello</servlet-name>
+        <servlet-class>com.example.makingsinglefileforconnection.HelloServlet</servlet-class>
+        <init-param>
+            <param-name>url</param-name>
+            <param-value>jdbc:mysql://localhost:3306/College</param-value>
+        </init-param>
+        <init-param>
+            <param-name>username</param-name>
+            <param-value>root</param-value>
+        </init-param>
+        <init-param>
+            <param-name>password</param-name>
+            <param-value>9754</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>hello</servlet-name>
+        <url-pattern>/hello_servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>drives</servlet-name>
+        <servlet-class>com.example.makingsinglefileforconnection.DriveDetails</servlet-class>
+        <init-param>
+            <param-name>url</param-name>
+            <param-value>jdbc:mysql://localhost:3306/College</param-value>
+        </init-param>
+        <init-param>
+            <param-name>username</param-name>
+            <param-value>root</param-value>
+        </init-param>
+        <init-param>
+            <param-name>password</param-name>
+            <param-value>9754</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>drives</servlet-name>
+        <url-pattern>/drives</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>eligible</servlet-name>
+        <servlet-class>com.example.makingsinglefileforconnection.EligibleDrives</servlet-class>
+        <init-param>
+            <param-name>url</param-name>
+            <param-value>jdbc:mysql://localhost:3306/College</param-value>
+        </init-param>
+        <init-param>
+            <param-name>username</param-name>
+            <param-value>root</param-value>
+        </init-param>
+        <init-param>
+            <param-name>password</param-name>
+            <param-value>9754</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>eligible</servlet-name>
+        <url-pattern>/Eligible</url-pattern>
+    </servlet-mapping>
+
+</web-app>
