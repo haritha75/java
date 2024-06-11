@@ -1,12 +1,10 @@
-package hyperskill;
-
 import java.util.Scanner;
 
 public class Zookeeper {
 
-    public static void main(String[] args) {
+    public static void main(String args[]) {
 
-        Scanner scanner = new Scanner(System.in);
+         Scanner scanner = new Scanner(System.in);
         String camel = """
             Switching on the camera in the camel habitat...
              ___.-''''-.
@@ -128,30 +126,11 @@ public class Zookeeper {
             (" ~----( ~   Y.  )
             It looks like we will soon have more rabbits!""";
 
-        String animals[]= {camel,lion,deer,goose,bat,rabbit};
 
-        while(true) {
-
-            System.out.println("Please enter the number of the habitat you would like to view: ");
-
-            int option = scanner.nextInt();
-
-            if(option==0)
-                System.out.println(animals[0]);
-            else if(option==1)
-                System.out.println(animals[1]);
-            else if(option==2)
-                System.out.println(animals[2]);
-            else if(option==3)
-                System.out.println(animals[3]);
-            else if(option==4)
-                System.out.println(animals[4]);
-            else if(option==5)
-                System.out.println(animals[5]);
-            else
-                System.out.println("See you later!");
-            return;
-        }
 
     }
+
+    
+    
+    
 }

@@ -14,6 +14,6 @@ class Maths<T> { //generic t.
     @SafeVarargs
     final void show(T... arg) { //passing array
         for(T x: arg)
-            System.out.print(x);
+            System.out.println(x);
     }
 }

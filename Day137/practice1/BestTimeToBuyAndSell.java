@@ -1,15 +1,32 @@
-class Solution {
-    public int maxProfit(int[] prices) {
-        if(prices == null || prices.length < 1)
-            return 0;
-        int buy1 = -prices[0], sell1 = 0, buy2 = -prices[0], sell2 = 0;
-        for(int i = 1; i < prices.length; i++) {
-            buy1 = Math.max(buy1, -prices[i]);
-            sell1 = Math.max(sell1, buy1 + prices[i]);
-            buy2 = Math.max(buy2, sell1 - prices[i]);
-            sell2 = Math.max(sell2, buy2 + prices[i]);
+ class Sample22 {
+
+    public static void main(String[] args) {
+
+        int arr[] ={1,2,3,4};
+
+        for(int ar : arr) {
+            System.out.println(ar);
         }
-        return sell2;
+
+
+
+    }
+}
+
+class Animal {
+
+    public void eat() {
+
+    }
+    public void eat(int a) {
+
+    }
+    public void eat(int a,int b) {
+
+    }
+}
+class Deer extends  Animal {
+    public void eat(String a) {
 
     }
 }

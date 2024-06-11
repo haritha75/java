@@ -18,9 +18,9 @@ Arrays.sort(c);
 for(int i=0;i<s.length;i++)
 {
 if(s[i]!=c[i])
-System.out.print(" not anagram");
+System.out.println(" not anagram");
 }
-System.out.print("anagram");
+System.out.println("anagram");
 
 }
 }

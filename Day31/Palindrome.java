@@ -4,7 +4,7 @@ public class Palindrome
 public static void main(String args[])
 {
 String s1="madlm";//madam,mom,j,""
-System.out.print(Palim(s1));
+System.out.println(Palim(s1));
 
 }
 static boolean Palim(String s1)

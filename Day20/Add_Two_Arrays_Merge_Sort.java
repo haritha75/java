@@ -27,6 +27,6 @@ while(j<b.length)
 {
 c[k++]=b[j++];
 }
-System.out.print(Arrays.toString(c));
+System.out.println(Arrays.toString(c));
 }
 }

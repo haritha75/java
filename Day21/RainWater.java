@@ -24,6 +24,6 @@ int min=Math.min(leftMax,rightMax);
 int water=min-arr[i];
 totwater+=water;
 }
-System.out.print(totwater);
+System.out.println("Rain water :"+totwater);
 }
 }																																																																																																																																																																																																																																																																																										

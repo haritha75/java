@@ -6,7 +6,7 @@ public class MergeSortExample {
     
     int a[] = {8,1,4,3,9,2,7};
      mergeSort(a);
-     System.out.println(Arrays.toString(args));
+     System.out.println(Arrays.toString(a));
   }
   public static void mergeSort(int a[]) {
 

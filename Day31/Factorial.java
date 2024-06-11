@@ -5,7 +5,7 @@ public static void main(String args[])
 {
 int n=5;
 int res=Fact(n);
-System.out.print(res);
+System.out.println(res);
 
 }
 static int Fact(int n)

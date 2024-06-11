@@ -2,13 +2,20 @@ public class Multiplication {
 
   public static void main(String[] args) {
     
-    int  n=3,m=5;
+    int  m=3,n=5;
 
-    System.out.println(multi(n,m));
+    System.out.println(multiplyTwoInteger(m,n));
   }
-  public static int multi(int n,int m) {
-    if(m==1 || m==0)
-      return m;
-      return n*multi(n, m-1);
+
+
+  static int multiplyTwoInteger(int m,int n) {
+
+    if(m==0 || n==0)
+        return 0;
+
+    return m + multiplyTwoInteger(m, n-1);
   }
+
+
 }
+

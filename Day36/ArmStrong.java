@@ -6,7 +6,7 @@ public static void main(String args[])
 int m=153;
 int n=m;
 int sum=0;
-System.out.print(armStrong(n,sum,m));
+System.out.println(armStrong(n,sum,m));
 }
 
 static boolean armStrong(int n,int sum,int m)

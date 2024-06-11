@@ -9,10 +9,10 @@ for(int i=0;i<arr.length;i++)
 {
 if(arr[i]==n)
 {
-System.out.print("elemnt found at index " +i);
+System.out.println("elemnt found at index " +i);
 return;
 }
 }
-System.out.print("element not found");
+System.out.println("element not found");
 }
 }

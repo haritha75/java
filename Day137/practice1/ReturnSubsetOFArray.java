@@ -34,7 +34,7 @@ public class ReturnSubsetOFArray {
     int k=0;
     for(int i=0;i<smallans.length;i++) {
 
-      ans[k] = new int[smallans[i].length];
+      ans[k] = new int[smallans[i].length]; //here we are ceating size tothe row wise
       for(int j=0;j<smallans[i].length;j++) {
         ans[k][j]=smallans[i][j];
       }

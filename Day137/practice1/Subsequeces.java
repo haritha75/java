@@ -2,7 +2,7 @@ public class Subsequeces {
 
   public static void main(String[] args) {
     
-    printSubsequences("xyz");
+    printSubsequences("abc");
   }
   public static void printSubsequences(String input) {
     printSubsequences(input,"");

@@ -19,6 +19,6 @@ while(j<b.length)
 {
 s+=b[j++];
 }
-System.out.print(s);
+System.out.println("sum of two not equal array is :"+s);
 }
 }

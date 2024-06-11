@@ -4,10 +4,10 @@ public class CountZeroes {
 
     public static void main(String[] args) {
 
-        System.out.println(countZeroes(70502));
+        System.out.println(countZeroes(0));
     }
 
-    private static int countZeroes(int n) {
+    static int countZeroes(int n) {
 
         if(n==0)
             return 0;

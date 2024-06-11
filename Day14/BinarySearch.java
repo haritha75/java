@@ -12,7 +12,7 @@ while(beg<=end)
 int mid=beg+end/2;
 if(arr[mid]==x)
 {
-System.out.print("elemnt found at index "+mid);
+System.out.println("elemnt found at index "+mid);
 return;
 }
 else if(arr[mid]<x)
@@ -24,6 +24,6 @@ else if(arr[mid]>x)
 end=mid-1;
 }
 }
-System.out.print("element not found");
+System.out.println("element not found");
 }
 }

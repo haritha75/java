@@ -36,6 +36,11 @@ public class LinkedList1 {
 class Duck extends Object {
     public int age;
     double weight;
+    @Override
+    public String toString() {
+        return "Duck [age=" + age + ", weight=" + weight + "]";
+    }
+
 
 }
 class Duck2 {

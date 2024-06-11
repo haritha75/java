@@ -4,7 +4,7 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.stream.Stream;
 //map method is used to whatever you mention reference object in map based on the reference object it will return the result.
-//use d to return stream consisting of the results of applying the given function to the elements of his stream.that means hatever override the applying method that result will be returns.
+//use d to return stream consisting of the results of applying the given function to the elements of his stream.that means whatever override the applying method that result will be returns.
 public class MapMethodExample {
 
     public static void main(String[] args) {

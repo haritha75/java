@@ -1,0 +1,34 @@
+It is used to  develop real word web applications
+jee means java enterprise edition
+till now we are using standalone application that means printing the data in console right
+now we are using web application that means we make a request thought the url to the server and the server responding and getting to the data like we are seeing the result in the browser right,
+for example  if you access other computers using teamveiwer  we can access only one computer ata time but here we can make  1000 of request to the server at a time and also at the same at server respond at the request at a time
+like we are watching a movie in some hotstar at the same time so many people watching the movie that means at the same time people send the request and server respond it.
+java and jdbc combination  we can make standalone application but we want web application then use servlets,jsp and java
+combine java,servlet and jsp called JEE or J2EE it is also called web applications
+
+j2EE needs
+
+-> web server
+-> web container
+-> servlets
+-> jsp
+-> modern view controller
+-> Hibernate
+-> spring
+
+web application stored in server computer
+
+for example if you have food app then other purpose delivery that food they also have the that app source code means frontend,backend and sql but all other purpose cannot contain that much of source code right it is the disadvantage of standalond application
+but in the web application that person  make request from computer  and  and another computer compiler and execute the  source code after that computer send responds to the computer so here ther is no need to the source code to other code without source code we are sending the responds.
+
+clear explanation
+
+first user make request via browser it will go to the internet and internet send to the request server computer again server computer send internet and internet send responds to the web browser
+
+ To convert normal computer to server computer we want one server software we have so many software but her we are using apache tomcat server because tomcat server is open source and free of cost
+
+ To want web application
+ 1. install server computer
+ 2. place all files into the web container
+ 3.

@@ -1,6 +1,7 @@
 public class ReplaceCharacterUsingRecursion {
 
     public static void main(String[] args) {
+      
         String str = "bababbc";
 
         String res = replace(str);

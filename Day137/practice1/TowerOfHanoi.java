@@ -12,7 +12,7 @@ public class TowerOfHanoi {
   public static void towerOfHanoi(int disks, char source,char auxilary,char destination) {
     if(disks ==0)
     return;
-    towerOfHanoi(disks-1, source, auxilary, destination);
+    towerOfHanoi(disks-1, source, destination, auxilary);
     System.out.println(source+" "+destination);
     towerOfHanoi(disks-1, auxilary, source, destination);
 

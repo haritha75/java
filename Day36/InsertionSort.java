@@ -17,6 +17,6 @@ j--;
 }
 a[j+1]=key;
 }
-System.out.print(Arrays.toString(a));
+System.out.println(Arrays.toString(a));
 }
 }

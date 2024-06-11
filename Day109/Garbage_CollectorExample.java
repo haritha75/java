@@ -8,8 +8,10 @@ public class Garbage_CollectorExample {
         Student s2 = new Student("1","jntu");
         Student s3 = new Student("4","svce"); //here s3 pointing to the object.
         s3 = s2; //whenever s3 assigning s2 that time s3 pointing tothe s2 object then previous object of s3 will be removed automatically from the heap.
+        s2=null;
 
         System.out.println(s3);
+        System.out.println(s2);
         
     }
 }

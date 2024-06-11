@@ -18,7 +18,7 @@ int temp=arr[j];
     }
    }
   } 
-  System.out.print(Arrays.toString(arr));
+  System.out.println(Arrays.toString(arr));
  }
 }
    
