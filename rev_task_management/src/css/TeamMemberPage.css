@@ -1,0 +1,73 @@
+.tm-login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100% !important;
+  background: linear-gradient(to right, #d172ee, #0072ff);
+}
+
+.tasks-detail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px !important;
+  margin-right: 30px !important;
+}
+
+#h2 {
+  margin-left: 0px !important;
+}
+
+#head {
+  text-align: left;
+  font-size: 30px !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.welcome {
+  font-size: x-large;
+  margin-top: 50px !important;
+  margin-left: 30px !important;
+  margin-right: 30px !important;
+}
+
+.full-width-button {
+  width: 90% !important;
+  background-color: #204165 !important;
+  color: white !important;
+  border: none !important;
+  padding: 10px 20px !important;
+  font-size: 16px !important;
+  border-radius: 5px !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s ease !important;
+  font-weight: bold !important;
+  box-shadow: 0 4px 6px rgba(55, 31, 172, 0.1) !important;
+  margin-bottom: 50px !important;
+  margin-left: 80px !important;
+}
+
+.full-width-button:hover {
+  background-color: #0056b3 !important;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15) !important;
+}
+
+.task-item {
+  background-color: #f8f9fa !important;
+  border: 1px solid #dee2e6 !important;
+  padding: 15px 20px !important;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer !important;
+  transition: background-color 0.3s ease, transform 0.3s ease !important;
+  color: #053e7f !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+.task-item:hover {
+  background-color: #e9ecef !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15) !important;
+}
