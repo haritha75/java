@@ -1,0 +1,30 @@
+// Update the '_' to solve the problem
+import java.util.Scanner;
+class Codechef
+{
+	public static void main (String[] args)
+	{
+		Scanner read = new Scanner(System.in);
+		int t = read.nextInt();
+		for(int i=0; i<t; i++)
+		{
+    		int t1 = read.nextInt();
+    		int t2 = read.nextInt();
+    		int r1 = read.nextInt();
+    		int r2 = read.nextInt();
+    		
+            double d1 = Math.pow(t1,2);
+            double d2 = Math.pow(t2,2);
+            double d3 = Math.pow(r1,3);
+            double d4 = Math.pow(r2,3);
+            
+            
+            if((d1/d3) == (d2/d4)){
+                System.out.println("YES");
+            }
+            else{
+                System.out.println("NO");
+            }
+		}
+	}
+}
