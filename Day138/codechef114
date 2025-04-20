@@ -1,0 +1,14 @@
+What does the following code print?
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Code" + "Chef");
+    }
+}
+
+
+Correct Answer:
+CodeChef
+Explanation:
+
+Multiple outputs are concatenated together using the + operator
