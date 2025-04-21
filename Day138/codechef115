@@ -1,0 +1,14 @@
+What does the following code achieve?
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(8 + "\n" + 13 + " " + 21 + "\n");
+    }
+}
+
+
+Correct Answer:
+Prints one number on the first line, two numbers on the next line
+Explanation:
+
+"\n" is used to move to the next line
