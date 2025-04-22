@@ -1,0 +1,14 @@
+Identify Incorrect Syntax
+
+Identify the incorrect syntax(es) from the given options.
+
+
+Correct Answer(s):
+System.out.println(5 + 3 / 2)
+System.out.println("Hello, World');
+System.out.println("5 + 3');
+Explanation:
+
+Text to be printed using "System.out.println" should be enclosed in double quotes. And each statement should end with a semicolon.
+
+
