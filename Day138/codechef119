@@ -1,0 +1,14 @@
+What is the role of "\n" in the below code?
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(7 + "\n" + 5);
+    }
+}
+
+
+Correct Answer:
+None of the above
+Explanation:
+
+"\n" is a special character representing a new line
