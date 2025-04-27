@@ -1,0 +1,24 @@
+What will be the output of the following code snippet?
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello " + "World" + 5 + " endl" + 2);
+    }
+}
+
+
+Correct Answer:
+Hello World5 endl2
+Explanation:
+
+"Hello " + "World" results in "Hello World" (concatenation of two strings).
+
+"Hello World" + 5 results in "Hello World5" (concatenation of string and integer, converting integer to string).
+
+"Hello World5" + " endl" results in "Hello World5 endl" (concatenation of two strings).
+
+"Hello World5 endl" + 2 results in "Hello World5 endl2" (concatenation of string and integer, converting integer to string).
+
+Therefore, the correct output is:
+Hello World5 endl2
+
