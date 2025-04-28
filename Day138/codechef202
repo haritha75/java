@@ -1,0 +1,19 @@
+What will the following code output?
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello " + "\n" + " World!");
+    }
+}
+
+Correct Answer:
+None of the above
+Explanation:
+
+"\n" moves to the next line, and " " acts as a space. So " World!" gives one character space before printing "World!".
+
+Actual Output:
+Hello
+_World!
+
+( _ : denotes empty space)
