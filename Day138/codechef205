@@ -1,0 +1,9 @@
+What does the following code represent?
+
+int age = 25;
+
+Correct Answer:
+Storing the value 25 in the age variable
+Explanation:
+
+The code int age = 25; initializes the variable age with the value 25.
