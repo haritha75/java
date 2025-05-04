@@ -1,0 +1,14 @@
+What does the following code represent?
+
+public class Main {
+    public static void main(String[] args) {
+        char ch = 'B';
+    }
+}
+
+
+Correct Answer:
+Declaring and initializing a character variable
+Explanation:
+
+The code char ch = 'B'; declares and initializes the variable ch with the character 'B'
