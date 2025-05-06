@@ -1,0 +1,9 @@
+Declare Long Data Type
+
+How do you declare a variable of type long storing the value 954200?
+
+Correct Answer:
+long num = 954200L;
+Explanation:
+
+The correct syntax to declare a long variable is (data type)long (variable name)num = (value)954200L;
