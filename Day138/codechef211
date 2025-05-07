@@ -1,0 +1,10 @@
+Identify correct syntax
+
+Identify the correct syntax for initializing a boolean variable.
+
+
+Correct Answer:
+boolean b = false;
+Explanation:
+
+The correct syntax to declare a boolean variable is (data type)boolean (variable name)b = (value)false;
