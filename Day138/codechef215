@@ -1,0 +1,7 @@
+How is the scope of code defined?
+
+Correct Answer:
+Curly braces
+Explanation:
+
+We rely on curly braces '{' and '}' to define the scope of the code.
