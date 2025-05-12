@@ -1,0 +1,20 @@
+What does the following code do?
+
+public class Main {
+    public static void main(String[] args) {
+       int marks = 75;
+       char grade;
+       if (marks >= 60)
+         grade = 'A';
+       else
+         grade = 'B';
+    }
+}
+
+
+Correct Answer(s):
+Assigns 'A' to grade if marks are greater than or equal to 60
+Assigns 'B' to grade if marks are less than 60
+Explanation:
+
+The code assigns the grade 'A' if the marks are greater than or equal to 60, otherwise 'B' is assigned.
