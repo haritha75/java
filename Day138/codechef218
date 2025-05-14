@@ -1,0 +1,7 @@
+What is the role of 'else if' in an if-else ladder?
+
+Correct Answer:
+To check an additional condition if none of the previous conditions are true
+Explanation:
+
+The 'else if ' part in an if-else if-else ladder is used to check an additional condition if none of the previous conditions is true
