@@ -1,0 +1,19 @@
+What will be the output of the following code?
+
+public class Main {
+  public static void main(String[] args) {
+    int a = 15;
+    if (a > 10)
+      System.out.print("Greater than 10");
+    if (a > 5)
+      System.out.print("Greater than 5");
+  }
+}
+
+
+Correct Answer:
+None of the above
+Explanation:
+
+The code does not have an else statement, so both conditions are checked independently. Both conditions are true, so both messages are printed but since there is no space added externally both messages will be printed one after the other.
+Greater than 10Greater than 5
