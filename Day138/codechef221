@@ -1,0 +1,20 @@
+What will be the output of the following code?
+
+public class Main {
+  public static void main(String[] args) {
+    int x = 5, y = 5;
+    if (x > y)
+      System.out.println("x is greater");
+    else if (y >= x)
+      System.out.println("y is greater");
+    else
+      System.out.println("Both are equal");
+  }
+}
+
+
+Correct Answer:
+y is greater
+Explanation:
+
+The code compares x and y and prints the second message since the comparison result is true and does not execute the next else condition
