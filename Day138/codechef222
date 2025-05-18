@@ -1,0 +1,7 @@
+What is the purpose of the 'if-else if-else' ladder?
+
+Correct Answer:
+Check multiple conditions sequentially
+Explanation:
+
+It allows checking multiple conditions sequentially and performing the operations  associated with the condition that matches
