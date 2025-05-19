@@ -1,0 +1,7 @@
+Which of the following code snippets correctly checks if a number is odd?
+
+Correct Answer:
+if (num % 2 != 0)
+Explanation:
+
+If num % 2 is not equal to 0, i.e it is 1 this implies that the number is odd
