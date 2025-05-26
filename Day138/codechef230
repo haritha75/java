@@ -1,0 +1,18 @@
+// How to find the average of 2 numbers?
+import java.util.Scanner;
+
+class Codechef
+{
+	public static void main (String[] args)
+	{
+	    int a = 15;
+	    int c = 19;
+	    int b = (a+c)/2;
+	    System.out.println(b);
+	    
+	    a = 16;
+	    c = 18;
+	    b = (a+c)/2;
+	    System.out.println(b);
+	}
+}
