@@ -1,0 +1,30 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		
+		Scanner scan=new Scanner(System.in);
+		int test=scan.nextInt();scan.nextLine();
+		while(test-->0){
+		    String s=scan.nextLine();
+		    String[] list=s.split(" ");
+		    for(String i:list){
+		        if (!i.equals(i.toUpperCase())){
+		            i=i.toUpperCase().charAt(0)+i.substring(1,i.length()).toLowerCase();
+		            System.out.print(i+" ");
+		        }
+		            
+		        else System.out.print(i+" ");	
+		    }
+		    System.out.println();
+		}
+
+
+	}
+}
+
