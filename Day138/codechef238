@@ -1,0 +1,25 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+import java.math.*;
+
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		
+		Scanner in =  new Scanner(System.in);
+	    int t = in.nextInt();
+	    in.nextLine();
+	    while(t-->0){
+	        String n = in.nextLine();
+	        BigInteger number = new BigInteger(n);
+	        BigInteger result = number.add(BigInteger.ONE);
+	        System.out.println(result);
+	    }
+
+	}
+}
+
