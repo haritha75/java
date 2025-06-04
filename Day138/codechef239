@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+		
+		int testcase = sc.nextInt();
+	
+		for (int inc = 0; inc<testcase; inc++ ){ 
+		 int n=sc.nextInt();
+		 String str= sc.next();
+		 char p='A';
+		 int a=0,b=0;
+		 for(int i=0;i<n;i++){
+		     char stri=str.charAt(i);
+		     if(stri==p){
+		        if(p=='A') a++;
+		         else b++;
+		     }
+		     p=stri;
+		 }
+		 System.out.println(a+" "+b);
+		}
+    }
+}
+
