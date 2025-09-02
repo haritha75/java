@@ -1,0 +1,24 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+
+	Scanner scanner = new Scanner(System.in);
+        int X = scanner.nextInt(); // Chef's current number of Grand Slam wins
+        scanner.close();
+        
+        int requiredWins = 25;
+        int slamsPerYear = 4;
+        
+
+        int yearsNeeded = (requiredWins - X + slamsPerYear - 1) / slamsPerYear;
+        
+        System.out.println(yearsNeeded);
+
+	}
+}
+
