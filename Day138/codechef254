@@ -1,0 +1,28 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+	int t;
+	Scanner in=new Scanner(System.in);
+	t=in.nextInt();
+	while(t-->0)
+	{
+		int n,m,s=0;
+		n=in.nextInt();
+		while(n!=0)
+		{
+			m=n%10;
+			s=s+m;
+			n=n/10;
+		}
+		System.out.println(s);
+	}
+
+	}
+}
+
