@@ -1,0 +1,32 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner scan = new Scanner(System.in);
+		 int Tst = scan.nextInt();
+		 for(int t=0;t<Tst;t++){
+		     int a,x,s;
+		     a = scan.nextInt();
+		     x = scan.nextInt();
+		     s = scan.nextInt();
+		     int count = 0;
+		     for(int j=0;j<a ;j++){
+		         int p=scan.nextInt();
+		         if(p>=x && p<=s)
+		         {
+		             count++;
+		         }
+		     }
+		     System.out.println(count);
+		     
+		 }
+
+
+	}
+}
+
