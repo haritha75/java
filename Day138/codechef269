@@ -1,0 +1,34 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner sc = new Scanner(System.in);
+		String s = sc.next();
+		boolean temp = false;
+		for(int i=0;i<s.length();i++) {
+		    if(s.charAt(i)=='c'){
+		        for(int j=0;j<s.length();j++){
+		            if(s.charAt(j)=='a'){
+		                for(int l=0;l<s.length();l++) {
+		                    if(s.charAt(l)=='t'){
+		                        System.out.println("Yes");
+		                        temp = true;
+		                        
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		if(!temp)
+	    	System.out.println("No");
+
+
+	}
+}
+
