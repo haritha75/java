@@ -1,0 +1,8 @@
+Which pair of parameters is used to add the path to source in image and anchor tags respectively?
+
+Correct Answer:
+src, href
+Explanation:
+
+- The src (source) attribute is used in image (<img>) tags to define the path to the image file.
+- The href (hyperlink reference) attribute is used in anchor (<a>) tags to define the destination URL.
