@@ -1,0 +1,43 @@
+// Solution as follows
+import java.util.*;
+
+class Codechef
+{
+	public static void main (String[] args)
+	{
+		Scanner read = new Scanner(System.in);
+		int t = read.nextInt();
+		for(int i=0; i<t; i++)
+		{
+		    ArrayList<Integer> a = new ArrayList<Integer>();
+		    int n = read.nextInt();
+		    int k = read.nextInt();
+		    for(int j=0; j<n; j++){
+		        int ele = read.nextInt();
+    		    a.add(ele);
+		    }
+		    
+		    ArrayList<Integer> b = new ArrayList<Integer>();
+		    for(int l=0; l<n; l++){
+		        if(a.get(l) > k){
+		            b.add(k);
+		        }
+		        else{
+		            b.add(a.get(l));
+		        }
+		    }
+		    int suma = 0;
+		    int sumb = 0;
+                    // suma is the sum of the original prices. sumb is the sum of the new prices.
+
+		    for(int p = 0; p < a.size(); p++){
+                suma += a.get(p);
+		    }
+		    for(int m = 0; m < b.size(); m++){
+                sumb += b.get(m);
+		    }
+                    // Logical condition was incorrect
+		    System.out.println(suma - sumb);
+		}
+	}
+}
