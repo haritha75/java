@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the number of elements (N)
+        int N = scanner.nextInt();
+
+        // Create an array to store the elements
+        int[] array = new int[N];
+
+        // Read the elements into the array
+        for (int i = 0; i < N; i++) {
+            array[i] = scanner.nextInt();
+        }
+
+        // Find the smallest element in the array
+        int smallest = array[0];
+        for (int i = 1; i < N; i++) {
+            if (array[i] < smallest) {
+                smallest = array[i];
+            }
+        }
+
+        // Find the second highest element in the array
+        int highest = 0;
+        int secondHighest = 0;
+
+        for (int i = 0; i < N; i++) {
+            if (array[i] > highest) {
+                secondHighest = highest;
+                highest = array[i];
+            } else if (array[i] > secondHighest && array[i] != highest) {
+                secondHighest = array[i];
+            }
+        }
+
+        // Output the smallest and second highest elements
+        System.out.println(smallest + " " + secondHighest);
+    }
+}
+
