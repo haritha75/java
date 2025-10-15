@@ -1,0 +1,56 @@
+class Stack {
+    private char[] stackArray;
+    private int maxSize;
+    private int top;
+
+    public Stack(int size) {
+        maxSize = size;
+        stackArray = new char[maxSize];
+        top = -1;
+    }
+
+    public void push(char c) {
+        if (isFull()) {
+            return;
+        }
+        stackArray[++top] = c;
+    }
+
+    public char pop() {
+        if (isEmpty()) {
+            return '\0'; // Return a sentinel value to indicate an empty stack
+        }
+        return stackArray[top--];
+    }
+
+    public boolean isEmpty() {
+        return top == -1;
+    }
+
+    public boolean isFull() {
+        return top == maxSize - 1;
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        String originalString = "Hello, World!";
+        int stringLength = originalString.length();
+        Stack stack = new Stack(stringLength);
+
+        // Push each character onto the stack
+        for (int i = 0; i < stringLength; i++) {
+            char c = originalString.charAt(i);
+            stack.push(c);
+        }
+
+        // Pop the characters from the stack to construct the reversed string
+        StringBuilder reversedString = new StringBuilder();
+        while (!stack.isEmpty()) {
+            reversedString.append(stack.pop());
+        }
+
+        System.out.println(reversedString.toString());
+    }
+}
+
