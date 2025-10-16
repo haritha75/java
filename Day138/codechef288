@@ -1,0 +1,71 @@
+import java.util.Scanner;
+
+class Stack {
+    private int maxSize;
+    private char[] stackArray;
+    private int top;
+
+    public Stack(int size) {
+        maxSize = size;
+        stackArray = new char[maxSize];
+        top = -1;
+    }
+
+    public void push(char c) {
+        if (isFull()) {
+            return;
+        }
+        stackArray[++top] = c;
+    }
+
+    public char pop() {
+        if (isEmpty()) {
+            return '\0'; // Return a sentinel value to indicate an empty stack
+        }
+        return stackArray[top--];
+    }
+
+    public boolean isEmpty() {
+        return top == -1;
+    }
+
+    public boolean isFull() {
+        return top == maxSize - 1;
+    }
+
+    public boolean isBalanced(String expression) {
+        for (char c : expression.toCharArray()) {
+            if (c == '(') {
+                push(c);
+            } else if (c == ')') {
+                if (isEmpty()) {
+                    return false;
+                }
+                char topChar = pop();
+                if (!isMatchingPair(topChar, c)) {
+                    return false;
+                }
+            }
+        }
+        return isEmpty(); // Stack should be empty if expression is balanced
+    }
+
+    private boolean isMatchingPair(char open, char close) {
+        return (open == '(' && close == ')');
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int T = scanner.nextInt(); // Number of test cases
+        scanner.nextLine(); // Consume the newline character
+
+        Stack stack = new Stack(100); // Create a stack with a maximum size
+
+        for (int t = 0; t < T; t++) {
+            String expression = scanner.nextLine(); // Read the expression
+
+            System.out.println(expression + " : " + stack.isBalanced(expression));
+        }
+    }
+}
+
