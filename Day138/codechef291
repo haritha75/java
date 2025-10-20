@@ -1,0 +1,19 @@
+Mutability of const Arrays
+
+const colors = ["red", "green", "blue"];
+
+colors[1] = "yellow";        
+colors.push("orange");       
+colors = ["pink", "white"];  
+
+
+Correct Answer:
+Reassigning the entire array using colors = ["pink", "white"] will throw an error
+Explanation:
+
+When an array is declared using const, the reference to the array cannot change, but the contents of the array can still be modified.
+- colors[1] = "yellow" modifies an existing element — this is allowed.
+- colors.push("orange") adds a new element to the array — this is also allowed.
+- colors = ["pink", "white"] tries to assign a new array to the variable colors, which is not allowed because const prevents reassignment of the variable reference.
+
+
