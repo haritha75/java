@@ -1,0 +1,20 @@
+Object and Array Mutability with const
+
+Consider the following code snippet:
+
+const userProfile = { name: "Alex", status: "active" };
+userProfile.status = "inactive";
+
+const tags = ["dev", "js"];
+tags.push("es6");
+
+
+Correct Answer:
+Both the status update (mutation) and adding a tag (mutation) are allowed because const only prevents reassigning the variable itself to a completely new object or array.
+Explanation:
+
+When you use const, you can’t change the whole variable (like assign a new object or array),
+but you can change the inside of that object or array (like update a property or add an item).
+So updating userProfile.status and pushing to tags is totally okay!
+
+
