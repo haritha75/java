@@ -1,0 +1,24 @@
+Variable Scope and Mutation
+
+What will be logged to the console by the following code?
+
+const config = { id: 1 };
+
+config.id = 2;
+if (true) {
+  const config = { id: 3 }; 
+  config.id = 4;
+  console.log("Inside block:", config.id);
+}
+
+console.log("Outside block:", config.id);
+
+
+Correct Answer:
+Inside block: 4
+Outside block: 2
+Explanation:
+
+The outer config is a constant object, and we can change its properties, so config.id = 2 works fine.
+Inside the if block, a new config variable is declared (block-scoped), which is separate from the outer one.
+So, Inside block: 4 and Outside block: 2 are printed — no error occurs.
