@@ -1,0 +1,16 @@
+import java.util.*;
+class Codechef
+{
+  public static void main (String[] args) {
+  Scanner scanner = new Scanner(System.in);
+        int statement = scanner.nextInt();
+        if (statement == 7) 
+        {
+            System.out.println("THALA");
+        } else 
+        {
+            System.out.println("SADGE");
+        }
+        scanner.close();
+    }
+}
