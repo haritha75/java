@@ -1,0 +1,28 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+	    Scanner sc=new Scanner(System.in);
+	    int t=sc.nextInt();
+	    for(int i=0;i<t;i++){
+	        int x=sc.nextInt();
+	        int y=sc.nextInt();
+	        int z=sc.nextInt();
+	        int firstoption=Math.min(x,z);
+	        int secondoption= y/2;
+	        int ans=firstoption + secondoption;
+	        System.out.println(ans);
+	        
+	        
+	        
+	        
+	    }
+		// your code goes here
+
+	}
+}
+
