@@ -1,0 +1,26 @@
+An airport announcement system needs to display different types of flight alerts. The developer is defining identifiers for class names and method names but accidentally uses an invalid identifier.
+
+class FlightAlerts {
+    public static void flightOnTime() { }
+    public static void flightDelayed() { }
+    public static void flight-cancelled() { }
+}
+
+
+Correct Answer:
+flight-cancelled
+Explanation:
+
+flightOnTime
+Incorrect because it follows Java naming rules for method identifiers.
+
+flightDelayed
+Incorrect because it is a valid method name without special characters.
+
+flight-cancelled
+Correct because hyphens (-) are not allowed in Java identifiers.
+
+FlightAlerts
+Incorrect because it is a valid class name, not a method name.
+
+
