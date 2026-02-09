@@ -1,0 +1,33 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner s=new Scanner(System.in);
+		int x=s.nextInt();
+		double y=s.nextInt();
+		int z=s.nextInt();
+		
+		double p=x+y+z;
+		
+		y=y*0.5;
+		
+		double q=x+y;
+		double r=y+z;
+		
+		if(p<4){
+		       p=4-p;
+		       q=q+p;
+		   }
+		   
+		if(q>r){
+		    System.out.println("yes");
+		}else{
+		    System.out.println("no");
+		}
+
+	}
+}
