@@ -1,0 +1,19 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+        Scanner sc = new Scanner(System.in);
+        String s = sc.next();
+        char th = s.charAt(2);
+        char fo = s.charAt(3);
+        char fi = s.charAt(4);
+        if(th=='n' && fo=='t' && fi=='a')
+        System.out.println("YES");
+        else
+        System.out.println("NO");
+	}
+}
