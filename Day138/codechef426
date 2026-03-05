@@ -1,0 +1,29 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc=new Scanner(System.in);
+		int out=sc.nextInt();
+		for(int i=0;i<out;i++){
+		    int no=sc.nextInt();
+		    int max=sc.nextInt();
+		    int[] water=new int[no];
+		    int total=0;
+		    for(int j=0;j<no;j++){
+		        water[j]=sc.nextInt();
+		    }
+		    for(int j=0;j<no;j++){
+		        total+=water[j];
+		    }
+		    int ans=total/max;
+		    if(total%max!=0){
+		        ans+=1;
+		    }
+		    System.out.println(ans);
+		}
+	}
+}
