@@ -1,0 +1,24 @@
+import java.io.*;
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) throws Exception {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st;
+        int T = Integer.parseInt(br.readLine().trim());
+        StringBuilder out = new StringBuilder();
+        while (T-- > 0) {
+            br.readLine();
+            String s = br.readLine().trim();
+            boolean seenZero = false;
+            int count = 0;
+            for (int i = 0; i < s.length(); i++) {
+                char c = s.charAt(i);
+                if (c == '0') seenZero = true;
+                else if (c == '1' && seenZero) count++;
+            }
+            out.append(count).append('\n');
+        }
+        System.out.print(out.toString());
+    }
+}
