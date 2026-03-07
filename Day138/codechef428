@@ -1,0 +1,36 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner scanner = new Scanner(System.in);
+		
+		int t = scanner.nextInt();
+		
+		for (int i = 0; i < t; i++) {
+		    int n = scanner.nextInt();
+		    scanner.nextLine();
+		    String s = scanner.nextLine();
+		    
+		    StringBuffer dna = new StringBuffer("");
+		    
+		    for (int j = 0; j < n; j++) {
+		        if (s.charAt(j) == 'A') {
+		            dna.append("T");
+		        } else if (s.charAt(j) == 'T') {
+		            dna.append("A");
+		        } else if (s.charAt(j) == 'C') {
+		            dna.append("G");
+		        } else if (s.charAt(j) == 'G') {
+		            dna.append("C");
+		        }
+		    }
+		    
+		    System.out.println(dna);
+		}
+
+	}
+}
