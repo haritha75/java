@@ -1,0 +1,33 @@
+import java.util.*;
+import java.lang.*;
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        int T = sc.nextInt();
+        while (T-- > 0) {
+            int N = sc.nextInt();
+
+            int bestIndex = 1;
+            long bestD = sc.nextInt();
+            long bestT = sc.nextInt();
+
+            for (int i = 2; i <= N; i++) {
+                long d = sc.nextInt();
+                long t = sc.nextInt();
+
+                if (d * bestT > bestD * t) {
+                    bestIndex = i;
+                    bestD = d;
+                    bestT = t;
+                }
+            }
+
+            System.out.println(bestIndex);
+        }
+
+        sc.close();
+    }
+}
