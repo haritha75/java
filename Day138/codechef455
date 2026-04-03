@@ -1,0 +1,34 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+    public static boolean isImperfect(int num){
+        boolean div215 = (num % 2 == 0);
+        boolean div512 = (num % 5 == 0);
+        
+        return (div215 || div512) && !(div215 && div512);
+    }
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc = new Scanner(System.in);
+		int T = sc.nextInt();
+		while(T-- > 0){
+		    int N = sc.nextInt();
+		    int diff = 0;
+		    while(true){
+		        if(N - diff > 0 && isImperfect(N - diff)){
+		            System.out.println(diff);
+		            break;
+		        }
+		        if(isImperfect(N + diff)){
+		            System.out.println(diff);
+		            break;
+		        }
+		        
+		        diff++;
+		    }
+		}
+	}
+}
