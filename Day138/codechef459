@@ -1,0 +1,21 @@
+import java.util.*;
+class Main {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int T = sc.nextInt();
+        while (T-- > 0) {
+            int X = sc.nextInt();
+            int Y = sc.nextInt();
+
+            int half1s = X / 2;
+            int half2s = Y / 2;
+
+            StringBuilder firstHalf = new StringBuilder();
+            for (int i = 0; i < half1s; i++) firstHalf.append('1');
+            for (int i = 0; i < half2s; i++) firstHalf.append('2');
+
+            String secondHalf = new StringBuilder(firstHalf).reverse().toString();
+            System.out.println(firstHalf.toString() + secondHalf);
+        }
+    }
+}
