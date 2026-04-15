@@ -1,0 +1,23 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner bun = new Scanner(System.in);
+		int T = bun.nextInt();
+		while(T-->0){
+		    int N = bun.nextInt();
+		    int X = bun.nextInt();
+		    int Y = bun.nextInt();
+		    int A = X * 5;
+		    int B = N / A;
+		    int C = B + Y;
+		    System.out.println(C);
+		}
+
+	}
+}
